@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.7)  8 MAY 2018 14:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.7)  27 MAY 2018 00:03
 entering extended mode
 **./ClassicThesis.tex
 (ClassicThesis.tex
@@ -91,7 +91,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \evensidemargin = 44.38632pt
 (typearea)              \oddsidemargin  = 0.28453pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 514.20023pt
+(typearea)              \textheight     = 555.00024pt
 (typearea)              \topmargin      = 12.2347pt
 (typearea)              \headheight     = 17.0pt
 (typearea)              \headsep        = 20.40001pt
@@ -1700,7 +1700,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \evensidemargin = 92.58438pt
 (typearea)              \oddsidemargin  = 24.38356pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 666.04997pt
+(typearea)              \textheight     = 713.65pt
 (typearea)              \topmargin      = -40.58768pt
 (typearea)              \headheight     = 15.95pt
 (typearea)              \headsep        = 20.40001pt
@@ -1881,14 +1881,15 @@ Package biblatex Info: ... file 'german.lbx' found.
 (D:\NonImportantPrograms\MikTeX\tex\latex\biblatex\lbx\german.lbx
 File: german.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 ))
-(ClassicThesis.aux (FrontBackmatter/DirtyTitlepage.aux)
-(FrontBackmatter/Titlepage.aux) (FrontBackmatter/Titleback.aux)
-(FrontBackmatter/Dedication.aux) (FrontBackmatter/Abstract.aux)
-(FrontBackmatter/Publications.aux) (FrontBackmatter/Acknowledgments.aux)
-(FrontBackmatter/Contents.aux) (Chapters/Chapter01.aux) (Chapters/Chapter02.aux
-) (Chapters/Chapter03.aux) (Chapters/Chapter0A.aux)
-(FrontBackmatter/Bibliography.aux) (FrontBackmatter/Declaration.aux)
-(FrontBackmatter/Colophon.aux))
+(ClassicThesis.aux (FrontBackmatter/Titlepage.aux)
+(FrontBackmatter/Titleback.aux) (FrontBackmatter/Abstract.aux)
+(FrontBackmatter/Acknowledgments.aux) (Chapters/p01-Introduction.aux)
+(Chapters/p01-LearningAnalytics.aux) (Chapters/p01-Dashboards.aux)
+(Chapters/p01-ActivityTracking.aux) (Chapters/p02-Implementation.aux)
+(Chapters/p04-Discussion.aux) (Chapters/p04-Conclussion.aux)
+(Chapters/p04-FutureWork.aux) (Chapters/Interview01.aux)
+(Chapters/Interview02.aux) (FrontBackmatter/Bibliography.aux)
+(FrontBackmatter/Declaration.aux))
 \openout1 = `ClassicThesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
@@ -1927,9 +1928,23 @@ Package biblatex Info: Data encoding 'ascii' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ClassicThesis.bbl' found.
- (ClassicThesis.bbl)
-Package biblatex Info: ... file 'ClassicThesis1-blx.bbl' not found.
-No file ClassicThesis1-blx.bbl.
+ (ClassicThesis.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Dogan2009':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Romero2008':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Verbert2013':
+(biblatex)                - Invalid format of field 'month'.
+
+)
 Package biblatex Info: Reference section=0 on input line 60.
 Package biblatex Info: Reference segment=0 on input line 60.
 Package caption Info: Begin \AtBeginDocument code.
@@ -1941,7 +1956,7 @@ Package caption Info: End \AtBeginDocument code.
 Package scrhack Info: undefining \float@addtolists on input line 60.
 \AtBeginShipoutBox=\box48
 Package hyperref Info: Link coloring ON on input line 60.
-(D:\NonImportantPrograms\MikTeX\tex\latex\hyperref\nameref.sty
+ (D:\NonImportantPrograms\MikTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (D:\NonImportantPrograms\MikTeX\tex\generic\oberdiek\gettitlestring.sty
@@ -1997,30 +2012,35 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 ABD: EveryShipout initializing macros
-\openout2 = `FrontBackmatter/DirtyTitlepage.aux'.
+\openout2 = `FrontBackmatter/Titlepage.aux'.
 
- (FrontBackmatter/DirtyTitlepage.tex
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 8.
+ (FrontBackmatter/Titlepage.tex
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 17.
+
 
 (D:\NonImportantPrograms\MikTeX\tex\latex\psnfss\ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 8.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 17.
+
 
 (D:\NonImportantPrograms\MikTeX\tex\latex\psnfss\omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 8.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 17.
+
 
 (D:\NonImportantPrograms\MikTeX\tex\latex\psnfss\omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 8.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 17.
+
 
 (D:\NonImportantPrograms\MikTeX\tex\latex\psnfss\omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 8.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 17.
+
 
 (D:\NonImportantPrograms\MikTeX\tex\latex\psnfss\ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -2029,14 +2049,18 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zplm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-)
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 71.
+<gfx/RUG_logo.png, id=59, 229.45724pt x 62.634pt>
+File: gfx/RUG_logo.png Graphic file (type png)
+<use gfx/RUG_logo.png>
+Package pdftex.def Info: gfx/RUG_logo.png  used on input line 27.
+(pdftex.def)             Requested size: 199.16928pt x 54.36688pt.
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 44.
 
 (D:\NonImportantPrograms\MikTeX\tex\latex\bera\t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 7.65005pt on input line 71.
+(Font)              scaled to size 7.65005pt on input line 44.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -2044,22 +2068,10 @@ Package microtype Info: Loading generic protrusion settings for font family
  [1
 
 
-{C:/Users/CharlyZK/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-\openout2 = `FrontBackmatter/Titlepage.aux'.
 
 
-(FrontBackmatter/Titlepage.tex [2
-
-
-
-
-]
-<gfx/TFZsuperellipse_bw.pdf, id=164, 260.5755pt x 203.14595pt>
-File: gfx/TFZsuperellipse_bw.pdf Graphic file (type pdf)
-<use gfx/TFZsuperellipse_bw.pdf>
-Package pdftex.def Info: gfx/TFZsuperellipse_bw.pdf  used on input line 22.
-(pdftex.def)             Requested size: 170.71652pt x 133.09721pt.
- [3 <./gfx/TFZsuperellipse_bw.pdf>])
+{C:/Users/CharlyZK/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./gfx/RU
+G_logo.png>])
 \openout2 = `FrontBackmatter/Titleback.aux'.
 
 
@@ -2068,320 +2080,163 @@ LaTeX Font Info:    Try loading font information for TS1+pplj on input line 8.
 
 (D:\NonImportantPrograms\MikTeX\tex\latex\psnfss\ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
-)) [4
-
-
-]
-\openout2 = `FrontBackmatter/Dedication.aux'.
-
-
-(FrontBackmatter/Dedication.tex) [5
-
-
-
-
-] [6
-
+)) [2
 
 
 ]
 \openout2 = `FrontBackmatter/Abstract.aux'.
 
- (FrontBackmatter/Abstract.tex
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.30756pt on input line 15.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 21.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 21.
-)
-[7
 
-] [8
-
-
-
-]
-\openout2 = `FrontBackmatter/Publications.aux'.
-
- (FrontBackmatter/Publications.tex
-\blx@maxsegment@1=\count441
-\blx@sectionciteorder@1=\count442
-Package biblatex Info: Reference section=1 on input line 10.
-\openout4 = `ClassicThesis1-blx.aux'.
-
-Package biblatex Info: Setting label 'refsection:1' on input line 10.
-
-
-LaTeX Warning: Empty bibliography on input line 13.
-
-Package biblatex Info: Reference section=0 on input line 14.
-)
-Overfull \hbox (6.14833pt too wide) in paragraph at lines 16--77
-[]\T1/pplj/m/it/10.95 Attention\T1/pplj/m/n/10.95 : This re-quires a sep-a-rate
- run of \T1/fvm/m/n/10.95 bibtex \T1/pplj/m/n/10.95 for your \T1/fvm/m/n/10.95 
-refsection\T1/pplj/m/n/10.95 ,
- []
-
-[9
-
-
-
-] [10
-
+(FrontBackmatter/Abstract.tex) [3
 
 
 ]
 \openout2 = `FrontBackmatter/Acknowledgments.aux'.
 
  (FrontBackmatter/Acknowledgments.tex
-LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10.95> not available
-(Font)              Font shape `T1/pplj/m/it' tried instead on input line 6.
-
-Overfull \hbox (2.90268pt too wide) in paragraph at lines 27--38
-[]\T1/pplj/m/n/10.95 Regarding the ty-pog-ra-phy and other help, many thanks go
- to Marco
+Overfull \hbox (2.49834pt too wide) in paragraph at lines 23--25
+\T1/pplj/m/n/10.95 Many thanks to Oliver Holder, Chris-tian Grier Mul-venna, He
+nry Salas,
  []
 
-) [11
+) [4
 
-] [12
-
-
-
-]
-\openout2 = `FrontBackmatter/Contents.aux'.
-
- (FrontBackmatter/Contents.tex
-Package tocbasic Info: character protrusion at toc deactivated on input line 12
-.
- (ClassicThesis.toc
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/pplj/m/sc/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-)
-\tf@toc=\write6
-\openout6 = `ClassicThesis.toc'.
-
-
-1: section
-1: chapter
-1: chapter
-1: section
-[13
-
-
-
-]
-Package tocbasic Info: character protrusion at lof deactivated on input line 31
-.
- (ClassicThesis.lof)
-\tf@lof=\write7
-\openout7 = `ClassicThesis.lof'.
-
-Package tocbasic Info: character protrusion at lot deactivated on input line 42
-.
- (ClassicThesis.lot)
-\tf@lot=\write8
-\openout8 = `ClassicThesis.lot'.
-
- (ClassicThesis.lol)
-\tf@lol=\write9
-\openout9 = `ClassicThesis.lol'.
-
-) [14
 
 ] [1
 
 
 
+] [2]
+\openout2 = `Chapters/p01-Introduction.aux'.
 
-
-
-
-]
-[2]
-\openout2 = `Chapters/Chapter01.aux'.
-
- (Chapters/Chapter01.tex
+ (Chapters/p01-Introduction.tex
 Chapter 1.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/pplj/m/sc/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
 [3
 
 
 
-]
-LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <9> not available
-(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 94.
-LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
-(Font)              scaled to size 7.65005pt on input line 94.
- [4]
-Overfull \hbox (2.23529pt too wide) in paragraph at lines 136--140
-[]\T1/fvm/m/n/10.95 classicthesis-config.tex\T1/pplj/m/n/10.95 : a cen-tral pla
-ce to load all nifty pack-
- []
-
-[5]
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 162.
-
-Overfull \hbox (1.77481pt too wide) in paragraph at lines 221--222
-[]\T1/pplj/m/n/10.95 Furthermore, pre-defined mar-gins for dif-fer-ent pa-per s
-izes are avail-
- []
-
-[6
-
-]
-Overfull \hbox (2.07549pt too wide) in paragraph at lines 245--245
- \T1/fvm/m/sl/9 thesis-config.tex
- []
+]) [4]
+\openout2 = `Chapters/p01-LearningAnalytics.aux'.
 
 
-Overfull \hbox (2.07549pt too wide) in paragraph at lines 245--245
-\T1/fvm/m/sl/9 thesis-config.tex  
- []
+No file Chapters/p01-LearningAnalytics.tex.
+\openout2 = `Chapters/p01-Dashboards.aux'.
 
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 247.
-[7] [8]) [9] [10
+No file Chapters/p01-Dashboards.tex.
+\openout2 = `Chapters/p01-ActivityTracking.aux'.
+
+No file Chapters/p01-ActivityTracking.tex.
+[5
 
 
 
-] [11
+
+
+
+
+
+
+] [6]
+\openout2 = `Chapters/p02-Implementation.aux'.
+
+ (Chapters/p02-Implementation.tex
+Chapter 2.
+) [7
+
+
+
+] [8
+
+
+
+] [9] [10] [11
 
 
 ] [12]
-\openout2 = `Chapters/Chapter02.aux'.
+\openout2 = `Chapters/p04-Discussion.aux'.
 
- (Chapters/Chapter02.tex
-Chapter 2.
-Package acronym Info: Label `acro:UML' newly defined as it shall be overridden
-although it is yet undefined on input line 32.
 
-Overfull \hbox (1.02399pt too wide) in paragraph at lines 38--43
-\T1/pplj/m/n/10.95 clu-daturque. Al-bu-cius ap-pel-lan-tur de-ter-ruis-set id e
-am, viven-dum par-
- []
+No file Chapters/p04-Discussion.tex.
+\openout2 = `Chapters/p04-Conclussion.aux'.
 
-Package acronym Info: Label `acro:API' newly defined as it shall be overridden
-although it is yet undefined on input line 59.
+No file Chapters/p04-Conclussion.tex.
+\openout2 = `Chapters/p04-FutureWork.aux'.
+
+No file Chapters/p04-FutureWork.tex.
 [13
 
 
 
+
+
+
+
+
 ] [14]
-<gfx/example_1.jpg, id=399, 240.9pt x 180.675pt>
-File: gfx/example_1.jpg Graphic file (type jpg)
-<use gfx/example_1.jpg>
-Package pdftex.def Info: gfx/example_1.jpg  used on input line 176.
-(pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
-<gfx/example_2.jpg, id=400, 240.9pt x 180.675pt>
-File: gfx/example_2.jpg Graphic file (type jpg)
-<use gfx/example_2.jpg>
-Package pdftex.def Info: gfx/example_2.jpg  used on input line 179.
-(pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
-<gfx/example_3.jpg, id=401, 240.9pt x 180.675pt>
-File: gfx/example_3.jpg Graphic file (type jpg)
-<use gfx/example_3.jpg>
-Package pdftex.def Info: gfx/example_3.jpg  used on input line 181.
-(pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
-<gfx/example_4.jpg, id=402, 240.9pt x 180.675pt>
-File: gfx/example_4.jpg Graphic file (type jpg)
-<use gfx/example_4.jpg>
-Package pdftex.def Info: gfx/example_4.jpg  used on input line 183.
-(pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
-Package acronym Info: Label `acro:DRY' newly defined as it shall be overridden
-although it is yet undefined on input line 185.
-) [15 <./gfx/example_1.jpg> <./gfx/example_2.jpg> <./gfx/example_3.jpg> <./gfx/
-example_4.jpg>]
-\openout2 = `Chapters/Chapter03.aux'.
-
- (Chapters/Chapter03.tex
-Chapter 3.
-[16
+\openout2 = `Chapters/Interview01.aux'.
 
 
+No file Chapters/Interview01.tex.
+\openout2 = `Chapters/Interview02.aux'.
 
-
-]
-Overfull \hbox (1.89992pt too wide) in paragraph at lines 4--7
-\T1/pplj/m/n/10.95 Ei choro aeterno an-tiopam mea, labitur bono-rum pri no. His
- no decore
- []
-
-[17]) [18] [19
-
-
-
-
-
-] [20]
-\openout2 = `Chapters/Chapter0A.aux'.
-
- (Chapters/Chapter0A.tex
-Appendix A.
-
-Overfull \hbox (1.02399pt too wide) in paragraph at lines 7--13
-\T1/pplj/m/n/10.95 clu-daturque. Al-bu-cius ap-pel-lan-tur de-ter-ruis-set id e
-am, viven-dum par-
- []
-
-(D:\NonImportantPrograms\MikTeX\tex\latex\listings\lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)) [21
-
-
-
-] [22
-
-
-
-]
+No file Chapters/Interview02.tex.
 \openout2 = `FrontBackmatter/Bibliography.aux'.
 
-
 (FrontBackmatter/Bibliography.tex
-Overfull \hbox (0.6304pt too wide) in paragraph at lines 15--15
-[]\T1/pplj/m/n/10.95 Donald E. Knuth.   Big Omi-cron and Big Omega and Big The
-ta.
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 9.30756pt on input line 15.
+
+Overfull \hbox (5.5601pt too wide) in paragraph at lines 15--15
+\T1/pplj/m/n/10.95 tem. In: \T1/pplj/m/it/10.95 Com-puter Ap-pli-ca-tions in E
+n-gi-neer-ing Ed-u-ca-tion \T1/pplj/m/n/10.95 18.2 (2009),
  []
 
-[23
+
+Overfull \hbox (18.84554pt too wide) in paragraph at lines 15--15
+\T1/fvm/m/n/10.95 www . sciencedirect . com / science / article / pii / S036013
+1507000590$[][]\T1/pplj/m/n/10.95 . 
+ []
+
+
+Overfull \hbox (11.29886pt too wide) in paragraph at lines 15--15
+\T1/pplj/m/n/10.95 0002-7642. \T1/pplj/m/sc/10.95 doi\T1/pplj/m/n/10.95 : [][]$
+\T1/fvm/m/n/10.95 10 . 1177 / 0002764213479363$[][]\T1/pplj/m/n/10.95 . \T1/ppl
+j/m/sc/10.95 url\T1/pplj/m/n/10.95 : [][]$\T1/fvm/m/n/10.95 http : / / journals
+ .
+ []
+
+) [15
 
 
 
-]) [24]
+
+
+
+
+]
 \openout2 = `FrontBackmatter/Declaration.aux'.
 
- (FrontBackmatter/Declaration.tex) [25
+ (FrontBackmatter/Declaration.tex [16
 
 
 
 
-
-
-] [26
-
-
-
-]
-\openout2 = `FrontBackmatter/Colophon.aux'.
-
-
-(FrontBackmatter/Colophon.tex) [27
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
+]) [17]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
  (ClassicThesis.aux
-(FrontBackmatter/DirtyTitlepage.aux) (FrontBackmatter/Titlepage.aux)
-(FrontBackmatter/Titleback.aux) (FrontBackmatter/Dedication.aux)
-(FrontBackmatter/Abstract.aux) (FrontBackmatter/Publications.aux)
-(FrontBackmatter/Acknowledgments.aux) (FrontBackmatter/Contents.aux)
-(Chapters/Chapter01.aux) (Chapters/Chapter02.aux) (Chapters/Chapter03.aux)
-(Chapters/Chapter0A.aux) (FrontBackmatter/Bibliography.aux)
-(FrontBackmatter/Declaration.aux) (FrontBackmatter/Colophon.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
+(FrontBackmatter/Titlepage.aux) (FrontBackmatter/Titleback.aux)
+(FrontBackmatter/Abstract.aux) (FrontBackmatter/Acknowledgments.aux)
+(Chapters/p01-Introduction.aux) (Chapters/p01-LearningAnalytics.aux)
+(Chapters/p01-Dashboards.aux) (Chapters/p01-ActivityTracking.aux)
+(Chapters/p02-Implementation.aux) (Chapters/p04-Discussion.aux)
+(Chapters/p04-Conclussion.aux) (Chapters/p04-FutureWork.aux)
+(Chapters/Interview01.aux) (Chapters/Interview02.aux)
+(FrontBackmatter/Bibliography.aux) (FrontBackmatter/Declaration.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
 
 
  *File List*
@@ -2544,75 +2399,48 @@ supp-pdf.mkii
 epstopdf-base.sty    2016/05/15 v2.6 Base part for package epstopdf
   grfext.sty    2016/05/16 v1.2 Manage graphics extensions (HO)
   mt-ppl.cfg    2005/11/16 v1.6 microtype config. file: Palatino (RS)
-FrontBackmatter/DirtyTitlepage.tex
+FrontBackmatter/Titlepage.tex
  ot1pplx.fd    2004/09/06 font definitions for OT1/pplx.
  omlzplm.fd    2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
  omszplm.fd    2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
  omxzplm.fd    2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
  ot1zplm.fd    2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+gfx/RUG_logo.png
    t1fvm.fd    2004/09/07 scalable font definitions for T1/fvm.
-FrontBackmatter/Titlepage.tex
-gfx/TFZsuperellipse_bw.pdf
 FrontBackmatter/Titleback.tex
  ts1pplj.fd    2004/09/06 font definitions for TS1/pplj.
-FrontBackmatter/Dedication.tex
 FrontBackmatter/Abstract.tex
-FrontBackmatter/Publications.tex
 FrontBackmatter/Acknowledgments.tex
-FrontBackmatter/Contents.tex
-Chapters/Chapter01.tex
-Chapters/Chapter02.tex
-gfx/example_1.jpg
-gfx/example_2.jpg
-gfx/example_3.jpg
-gfx/example_4.jpg
-Chapters/Chapter03.tex
-Chapters/Chapter0A.tex
-lstlang1.sty    2015/06/04 1.6 listings language file
+Chapters/p01-Introduction.tex
+Chapters/p02-Implementation.tex
 FrontBackmatter/Bibliography.tex
 FrontBackmatter/Declaration.tex
-FrontBackmatter/Colophon.tex
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
 Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 94A5C9C1362F55A795F18771CC30C416;2241.
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                ClassicThesis1-blx
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 31B615B53478F0D40FDCC29CD57CAECF;764.
 Package logreq Info: Writing requests to 'ClassicThesis.run.xml'.
 \openout1 = `ClassicThesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35594 strings out of 493305
- 660152 string characters out of 3137598
- 1197162 words of memory out of 3000000
- 38381 multiletter control sequences out of 15000+200000
- 614867 words of font info for 142 fonts, out of 3000000 for 9000
+ 33648 strings out of 493305
+ 634023 string characters out of 3137598
+ 1100588 words of memory out of 3000000
+ 36602 multiletter control sequences out of 15000+200000
+ 593630 words of font info for 104 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 69i,23n,92p,10519b,2267s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 65i,22n,90p,10519b,2180s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/NonImportantPrograms/MikTeX/fonts/enc/dvips/base/8r.enc}<D:/NonImportantP
-rograms/MikTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/NonImportantProgra
-ms/MikTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/NonImportantPrograms/Mi
-kTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/NonImportantPrograms/MikTeX/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><D:/NonImportantPrograms/MikTeX/fonts/
-type1/public/amsfonts/euler/eurb10.pfb><D:/NonImportantPrograms/MikTeX/fonts/ty
-pe1/public/mathpazo/fplmri.pfb><D:/NonImportantPrograms/MikTeX/fonts/type1/publ
-ic/fpl/fplrc8a.pfb><D:/NonImportantPrograms/MikTeX/fonts/type1/public/fpl/fplri
-j8a.pfb><D:/NonImportantPrograms/MikTeX/fonts/type1/bera/fvmr8a.pfb><D:/NonImpo
-rtantPrograms/MikTeX/fonts/type1/bera/fvmro8a.pfb><D:/NonImportantPrograms/MikT
-eX/fonts/type1/urw/palatino/uplb8a.pfb><D:/NonImportantPrograms/MikTeX/fonts/ty
-pe1/urw/palatino/uplr8a.pfb><D:/NonImportantPrograms/MikTeX/fonts/type1/urw/pal
-atino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (41 pages, 330107 bytes).
+rograms/MikTeX/fonts/type1/public/amsfonts/euler/eurb10.pfb><D:/NonImportantPro
+grams/MikTeX/fonts/type1/public/fpl/fplrc8a.pfb><D:/NonImportantPrograms/MikTeX
+/fonts/type1/public/fpl/fplrij8a.pfb><D:/NonImportantPrograms/MikTeX/fonts/type
+1/bera/fvmr8a.pfb><D:/NonImportantPrograms/MikTeX/fonts/type1/urw/palatino/uplr
+8a.pfb><D:/NonImportantPrograms/MikTeX/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on ClassicThesis.pdf (21 pages, 108123 bytes).
 PDF statistics:
- 566 PDF objects out of 1000 (max. 8388607)
- 156 named destinations out of 1000 (max. 500000)
- 21826 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 223 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 17014 words of extra memory for PDF output out of 17280 (max. 10000000)
 

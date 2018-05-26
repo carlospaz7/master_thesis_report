@@ -33,7 +33,7 @@
     %\WarningFilter{scrreprt}{Activating an ugly workaround}
     \WarningFilter{titlesec}{Non standard sectioning command detected}
 \documentclass[ twoside,openright,titlepage,numbers=noenddot,headinclude,%1headlines,% letterpaper a4paper
-                footinclude=true,cleardoublepage=empty,abstractoff, % <--- obsolete, remove (todo)
+                footinclude=false,cleardoublepage=empty,abstractoff, % <--- obsolete, remove (todo)
                 BCOR=5mm,paper=a4,fontsize=11pt,%11pt,a4paper,%
                 ngerman,american,%
                 ]{scrreprt}
@@ -68,52 +68,72 @@
 %********************************************************************
 % Frontmatter
 %*******************************************************
-\include{FrontBackmatter/DirtyTitlepage}
+%\include{FrontBackmatter/DirtyTitlepage}
 \include{FrontBackmatter/Titlepage}
 \include{FrontBackmatter/Titleback}
-\cleardoublepage\include{FrontBackmatter/Dedication}
 %\cleardoublepage\include{FrontBackmatter/Foreword}
-\cleardoublepage\include{FrontBackmatter/Abstract}
-\cleardoublepage\include{FrontBackmatter/Publications}
-\cleardoublepage\include{FrontBackmatter/Acknowledgments}
-\cleardoublepage\include{FrontBackmatter/Contents}
+%\cleardoublepage
+\include{FrontBackmatter/Abstract}
+%\cleardoublepage
+\include{FrontBackmatter/Acknowledgments}
+
+%\cleardoublepage\include{FrontBackmatter/Contents}
 %********************************************************************
 % Mainmatter
 %*******************************************************
-\cleardoublepage
+%\cleardoublepage
 \pagestyle{scrheadings}
 \pagenumbering{arabic}
 %\setcounter{page}{90}
 % use \cleardoublepage here to avoid problems with pdfbookmark
-\cleardoublepage
-\part{Some Kind of Manual}\label{pt:manual}
-\include{Chapters/Chapter01}
-\cleardoublepage
-\ctparttext{You can put some informational part preamble text here.
-Illo principalmente su nos. Non message \emph{occidental} angloromanic
-da. Debitas effortio simplificate sia se, auxiliar summarios da que,
-se avantiate publicationes via. Pan in terra summarios, capital
-interlingua se que. Al via multo esser specimen, campo responder que
-da. Le usate medical addresses pro, europa origine sanctificate nos se.}
-\part{The Showcase}\label{pt:showcase}
-\include{Chapters/Chapter02}
-%\addtocontents{toc}{\protect\clearpage} % <--- just debug stuff, ignore
-\include{Chapters/Chapter03}
-%\include{multiToC} % <--- just debug stuff, ignore for your documents
+%\cleardoublepage
+\part{Background}\label{pt:background}
+\include{Chapters/p01-Introduction}
+\include{Chapters/p01-LearningAnalytics}
+\include{Chapters/p01-Dashboards}
+\include{Chapters/p01-ActivityTracking}
+%\cleardoublepage
+%
+%\ctparttext{You can put some informational part preamble text here.
+%Illo principalmente su nos. Non message \emph{occidental} angloromanic
+%da. Debitas effortio simplificate sia se, auxiliar summarios da que,
+%se avantiate publicationes via. Pan in terra summarios, capital
+%interlingua se que. Al via multo esser specimen, campo responder que
+%da. Le usate medical addresses pro, europa origine sanctificate nos se.}
+
+
+\part{Research methodology}\label{pt:methodology}
+\include{Chapters/p02-Implementation}
+%\include{Chapters/Chapter02_guide}
+%%\addtocontents{toc}{\protect\clearpage} % <--- just debug stuff, ignore
+
+\part{Results}\label{pt:results}
+%\include{Chapters/Chapter03}
+
+
+\part{Discussion}\label{pt:discussion}
+\include{Chapters/p04-Discussion}
+\include{Chapters/p04-Conclussion}
+\include{Chapters/p04-FutureWork}
+%%\include{multiToC} % <--- just debug stuff, ignore for your documents
 % ********************************************************************
 % Backmatter
 %*******************************************************
 \appendix
 %\renewcommand{\thechapter}{\alph{chapter}}
-\cleardoublepage
+%\cleardoublepage
 \part{Appendix}
-\include{Chapters/Chapter0A}
+\include{Chapters/Interview01}
+\include{Chapters/Interview02}
+%\include{Chapters/Chapter0A}
 %********************************************************************
 % Other Stuff in the Back
 %*******************************************************
-\cleardoublepage\include{FrontBackmatter/Bibliography}
-\cleardoublepage\include{FrontBackmatter/Declaration}
-\cleardoublepage\include{FrontBackmatter/Colophon}
+%\cleardoublepage
+\include{FrontBackmatter/Bibliography}
+%\cleardoublepage
+\include{FrontBackmatter/Declaration}
+%\cleardoublepage\include{FrontBackmatter/Colophon}
 % ********************************************************************
 % Game Over: Restore, Restart, or Quit?
 %*******************************************************
