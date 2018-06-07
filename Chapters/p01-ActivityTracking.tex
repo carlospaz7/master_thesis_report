@@ -1,0 +1,14 @@
+%************************************************
+\chapter{Activity tracking}
+%************************************************
+
+The term activity tracking has recently emerged and is mostly related to wearable devices that monitor fitness data \cite{Wikipedia2016}. In a more abstract sense, activity tracking is the process of collecting user's information over time for a specific topic. 
+
+In the web context, technologies such as Javascript listeners and external tools such as Google analytics are combined to better detect when a user leaves a page. However it is impossible to track when a user closes the browser even for state of the art technologies, therefore Google analytics uses a configurable timeout parameter to close the activity session \cite{Pierstorff2014}.
+
+In a slightly different context, wearable devices \cite{Evenson2015} are not infallible under every external condition, and activity tracking can only be precise while collecting multiple measures and obtaining the average value \cite{El-Amrawy2015}.
+
+\citeauthor{Santos2012} studied the effect of time tracking on the learning process. They concluded that time seems to be a good indicator of the learning progress of a student. During their experiments they used different tracking tools, from manual (\Eg{Toggl}) to automated (\Eg{RescueTime}) software applications were tested. An advantage of manual tracking is that the student is more aware of his habits, therefore the commitment with the learning is strengthened, but the problem is that the students can declare false information, making it difficult for the teachers to detect problems and provide effective support. For automated time tracking \citeauthor{Santos2012} used RescueTime (\url{https://www.rescuetime.com/}), this tool tracks time spent on each application. 
+For our project, we are interested in accurately detecting reading time. Manual tools require user input, our customers are high school language teachers who want to avoid students easily lying about their work. On the other hand, automated tools such as RescueTime, cannot really track text reading time, because a student can easily open an article, walk away and come back 1 hour later and pretend that they worked for 1 hour, while in reality they did not read at all. The most precise way of measuring reading activity is by implementing eye tracking solutions, which would result both expensive and invasive, and even though, it cannot detect if the user is really paying attention and learning or only staring at the text.
+Other language learning systems such as Duolingo (\url{https://www.duolingo.com/}), only provide information about correct or incorrect exercises but no information about the time spent on the application, or time invested learning a foreign language.
+In chapter \ref{p02:implementation}, a detailed description of our approach for tracing reading sessions is provided.
