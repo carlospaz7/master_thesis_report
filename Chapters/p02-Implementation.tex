@@ -1,17 +1,13 @@
 %************************************************
 \chapter{Implementation}\label{p02:implementation}
 %************************************************
+When implementing the session tracking algorithm, a correct set of rules need to be defined (\Eg what user actions are part of the active session, how much time a user takes to read a certain text, how much time can a user read without translating, etc) in order to properly measure a working session.
 
-%TODO mention interviews and extracted requirements from there, link to the appendinx as well
+Two language teachers, one teaching French and the second teaching English, have been using the Zeeguu platform during their lessons, therefore they were the ideal candidates for discussing about how to properly measure their students' work. In chapter \ref{p02:interviews}, the structure of the interview is explained.
+
+Once obtained the general outlines, the algorithm design was started. The algorithm was designed following the finite state machine approach, where the session lifespan transitions between different status until the closure is reached. The technical details of the algorithm are addressed in chapter \ref{p02:session_tracking}.
+
+Finally, a dashboard was developed to enable teacher's evaluate the results of the session tracking (chapter \ref{p02:dashboard}).
+
 
 %TODO Some explanation about how this project was developed using a software engineering approach (SCRUM and software requirements and documentation)
-During the results of the pilot test, students and professors gave feedback on their impressions of the system, therefore these feedback will be used as a starting point for designing a new visualization interface. The teachers will be contacted again because they know already the system and have experience in teaching with modern systems, so they will be a key evaluation factor for the project’s success. 
-Existing research approaches will be used as starting point reference and their applicability for the particular problem of foreign language learning will be evaluated. 
-Modern visualization design principles will be especially considered during the whole design process.
-
-%TODO Explain material design
-
-%TODO Explain session tracking
-
-%TODO Explain algorithm (we can use the technical report)
-

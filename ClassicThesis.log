@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.7)  7 JUN 2018 16:46
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.7)  7 JUN 2018 18:21
->>>>>>> template
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.7)  10 JUN 2018 17:13
 entering extended mode
 **./ClassicThesis.tex
 (ClassicThesis.tex
@@ -1846,15 +1842,51 @@ Package: prelim2e 2009/05/29 v1.3 prelim2e Package (MS)
 
 (D:\NonImportantPrograms\MikTeX\tex\latex\ms\everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))))
+)))
+(D:\NonImportantPrograms\MikTeX\tex\latex\dramatist\dramatist.sty
+Package: dramatist 2014/12/18 v1.2e Package for typesetting drama -- Author: Ma
+ssimiliano Dominici
+\c@storelineno=\count433
+\c@storeprintlineindex=\count434
+\c@character=\count435
+\c@temp=\count436
+\c@gtemp=\count437
+\c@act=\count438
+\c@scene=\count439
+\tbox=\box48
+\CharWidth=\skip152
+\ParenWidth=\skip153
+\CastWidth=\skip154
+\beforeactskip=\skip155
+\afteractskip=\skip156
+\beforesceneskip=\skip157
+\aftersceneskip=\skip158
+\beforecastskip=\skip159
+\aftercasttitleskip=\skip160
+\speaksskip=\skip161
+\dirwidth=\skip162
+\speakswidth=\dimen189
+\speaksindent=\dimen190
+\speechskip=\dimen191
+\Dparsep=\dimen192
+\Dlabelsep=\dimen193
+
+
+Package dramatist Warning: 
+
+********************************************************
+* No Configuration file found, using default settings. *
+********************************************************
+.
+
+))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'american'.
 Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
-
-(D:\NonImportantPrograms\MikTeX\tex\latex\biblatex\lbx\american.lbx
+ (D:\NonImportantPrograms\MikTeX\tex\latex\biblatex\lbx\american.lbx
 File: american.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1887,15 +1919,15 @@ File: german.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 ))
 (ClassicThesis.aux (FrontBackmatter/Titlepage.aux)
 (FrontBackmatter/Titleback.aux) (FrontBackmatter/Abstract.aux)
-(FrontBackmatter/Acknowledgments.aux) (Chapters/p01-Introduction.aux)
-(Chapters/p01-LearningAnalytics.aux) (Chapters/p01-Dashboards.aux)
-(Chapters/p01-ActivityTracking.aux) (Chapters/p01-WordKnowledge.aux)
+(FrontBackmatter/Acknowledgments.aux) (FrontBackmatter/Contents.aux)
+(Chapters/p01-Introduction.aux) (Chapters/p01-LearningAnalytics.aux)
+(Chapters/p01-ActivityTracking.aux) (Chapters/p01-Dashboards.aux)
 (Chapters/p02-Implementation.aux) (Chapters/p02-Interviews.aux)
-(Chapters/p02-SessionTracking.aux) (Chapters/p02-WordHistoryTracking.aux)
-(Chapters/p02-Dashboard.aux) (Chapters/p04-Discussion.aux)
-(Chapters/p04-Conclusion.aux) (Chapters/p04-FutureWork.aux)
-(Chapters/Interview01.aux) (Chapters/Interview02.aux)
-(FrontBackmatter/Bibliography.aux) (FrontBackmatter/Declaration.aux))
+(Chapters/p02-SessionTracking.aux) (Chapters/p02-Dashboard.aux)
+(Chapters/p04-Discussion.aux) (Chapters/p04-Conclusion.aux)
+(Chapters/p04-FutureWork.aux) (Chapters/Interview01.aux)
+(Chapters/Interview02.aux) (FrontBackmatter/Bibliography.aux)
+(FrontBackmatter/Declaration.aux))
 \openout1 = `ClassicThesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
@@ -1942,6 +1974,11 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Ellis1993':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'Romero2008':
 (biblatex)                - Invalid format of field 'month'.
 
@@ -1958,9 +1995,9 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count433
+\c@lstlisting=\count440
 Package scrhack Info: undefining \float@addtolists on input line 60.
-\AtBeginShipoutBox=\box48
+\AtBeginShipoutBox=\box49
 Package hyperref Info: Link coloring ON on input line 60.
  (D:\NonImportantPrograms\MikTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1968,7 +2005,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (D:\NonImportantPrograms\MikTeX\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count434
+\c@section@level=\count441
 )
 LaTeX Info: Redefining \ref on input line 60.
 LaTeX Info: Redefining \pageref on input line 60.
@@ -1981,16 +2018,16 @@ LaTeX Info: Redefining \nameref on input line 60.
 
 (D:\NonImportantPrograms\MikTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count435
-\scratchdimen=\dimen189
-\scratchbox=\box49
-\nofMPsegments=\count436
-\nofMParguments=\count437
+\scratchcounter=\count442
+\scratchdimen=\dimen194
+\scratchbox=\box50
+\nofMPsegments=\count443
+\nofMParguments=\count444
 \everyMPshowfont=\toks37
-\MPscratchCnt=\count438
-\MPscratchDim=\dimen190
-\MPnumerator=\count439
-\makeMPintoPDFobject=\count440
+\MPscratchCnt=\count445
+\MPscratchDim=\dimen195
+\MPnumerator=\count446
+\makeMPintoPDFobject=\count447
 \everyMPtoPDFconversion=\toks38
 ) (D:\NonImportantPrograms\MikTeX\tex\latex\oberdiek\epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -2055,7 +2092,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zplm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<gfx/RUG_logo.png, id=107, 229.45724pt x 62.634pt>
+<gfx/RUG_logo.png, id=127, 229.45724pt x 62.634pt>
 File: gfx/RUG_logo.png Graphic file (type png)
 <use gfx/RUG_logo.png>
 Package pdftex.def Info: gfx/RUG_logo.png  used on input line 27.
@@ -2093,7 +2130,10 @@ File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 \openout2 = `FrontBackmatter/Abstract.aux'.
 
 
-(FrontBackmatter/Abstract.tex) [3
+(FrontBackmatter/Abstract.tex
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 9.30756pt on input line 13.
+) [3
 
 
 ]
@@ -2108,29 +2148,77 @@ nry Salas,
 ) [4
 
 
-] [1
+]
+\openout2 = `FrontBackmatter/Contents.aux'.
 
-
-
-] [2]
-\openout2 = `Chapters/p01-Introduction.aux'.
-
- (Chapters/p01-Introduction.tex
-Chapter 1.
+ (FrontBackmatter/Contents.tex
+Package tocbasic Info: character protrusion at toc deactivated on input line 12
+.
+ (ClassicThesis.toc
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplj/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-[3
+)
+\tf@toc=\write6
+\openout6 = `ClassicThesis.toc'.
+
+
+1: section
+1: chapter
+1: chapter
+1: section
+[5
 
 
 
-]) [4]
+
+
+
+]
+Package tocbasic Info: character protrusion at lof deactivated on input line 31
+.
+ (ClassicThesis.lof)
+\tf@lof=\write7
+\openout7 = `ClassicThesis.lof'.
+
+Package tocbasic Info: character protrusion at lot deactivated on input line 42
+.
+ (ClassicThesis.lot)
+\tf@lot=\write8
+\openout8 = `ClassicThesis.lot'.
+
+ (ClassicThesis.lol)
+\tf@lol=\write9
+\openout9 = `ClassicThesis.lol'.
+
+) [6
+
+]
+\openout2 = `Chapters/p01-Introduction.aux'.
+
+
+(Chapters/p01-Introduction.tex
+Chapter 1.
+
+Overfull \hbox (8.48004pt too wide) in paragraph at lines 11--12
+\T1/pplj/m/n/10.95 able in-sight into the learn-ing pro-cess have been re-searc
+hed. His-tograms,
+ []
+
+[1
+
+
+
+
+]) [2] [3
+
+
+
+] [4]
 \openout2 = `Chapters/p01-LearningAnalytics.aux'.
 
  (Chapters/p01-LearningAnalytics.tex
 Chapter 2.
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.30756pt on input line 5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
@@ -2140,13 +2228,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
 
 
-
 ]
+\openout2 = `Chapters/p01-ActivityTracking.aux'.
+
+ (Chapters/p01-ActivityTracking.tex
+Chapter 3.
+[6
+
+
+
+
+]) [7]
 \openout2 = `Chapters/p01-Dashboards.aux'.
 
  (Chapters/p01-Dashboards.tex
-Chapter 3.
-[6
+Chapter 4.
+[8
 
 
 
@@ -2156,36 +2253,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-) [7]
-\openout2 = `Chapters/p01-ActivityTracking.aux'.
-
- (Chapters/p01-ActivityTracking.tex
-Chapter 4.
-[8
+) [9] [10
 
 
 
-
-]) [9]
-\openout2 = `Chapters/p01-WordKnowledge.aux'.
-
- (Chapters/p01-WordKnowledge.tex
-Chapter 5.
-[10
-
-
-
-
-]) [11] [12
-
-
-
-] [13] [14]
+] [11] [12]
 \openout2 = `Chapters/p02-Implementation.aux'.
 
  (Chapters/p02-Implementation.tex
-Chapter 6.
-) [15
+Chapter 5.
+
+Overfull \hbox (2.3005pt too wide) in paragraph at lines 6--7
+\T1/pplj/m/n/10.95 ing En-glish, have been us-ing the Zeeguu plat-form dur-ing 
+their lessons,
+ []
+
+
+Overfull \hbox (5.5417pt too wide) in paragraph at lines 8--9
+[]\T1/pplj/m/n/10.95 Once ob-tained the gen-eral out-lines, the al-go-rithm de-
+sign was started.
+ []
+
+) [13
 
 
 
@@ -2193,65 +2282,80 @@ Chapter 6.
 \openout2 = `Chapters/p02-Interviews.aux'.
 
  (Chapters/p02-Interviews.tex
+Chapter 6.
+[14
+
+
+
+
+]
+Overfull \hbox (3.65117pt too wide) in paragraph at lines 9--10
+\T1/pplj/m/n/10.95 cisely mea-sur-ing the read-ing and prac-tice time. The firs
+t teacher grants
+ []
+
+) [15]
+\openout2 = `Chapters/p02-SessionTracking.aux'.
+
+ (Chapters/p02-SessionTracking.tex
 Chapter 7.
 [16
 
 
 
 
-]) [17]
-\openout2 = `Chapters/p02-SessionTracking.aux'.
+]
+<gfx/Finite_state_machine_diagramv2.png, id=307, 1778.645pt x 771.88374pt>
+File: gfx/Finite_state_machine_diagramv2.png Graphic file (type png)
+<use gfx/Finite_state_machine_diagramv2.png>
+Package pdftex.def Info: gfx/Finite_state_machine_diagramv2.png  used on input 
+line 13.
+(pdftex.def)             Requested size: 336.0pt x 145.81142pt.
 
- (Chapters/p02-SessionTracking.tex
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 17.
+[17 <./gfx/Finite_state_machine_diagramv2.png>]) [18] [19]
+\openout2 = `Chapters/p02-Dashboard.aux'.
+
+
+(Chapters/p02-Dashboard.tex
 Chapter 8.
-[18
-
-
-
-
-]) [19]
-\openout2 = `Chapters/p02-WordHistoryTracking.aux'.
-
- (Chapters/p02-WordHistoryTracking.tex
-Chapter 9.
 [20
 
 
 
 
-]) [21]
-\openout2 = `Chapters/p02-Dashboard.aux'.
-
- (Chapters/p02-Dashboard.tex
-Chapter 10.
-[22
-
-
-
-
 ]
-Overfull \hbox (0.84937pt too wide) in paragraph at lines 2--2
-[]\U/eur/b/n/70 10 
+
+LaTeX Warning: Reference `fig:heat_map' on page 21 undefined on input line 9.
+
+
+LaTeX Warning: Reference `fig:student_activity' on page 21 undefined on input l
+ine 13.
+
+
+Overfull \hbox (5.57048pt too wide) in paragraph at lines 17--18
+\T1/pplj/m/n/10.95 an-a-lyze the class on his own and make par-tic-u-lar dis-co
+v-er-ies (E.g.what
  []
 
-) [23] [24
+) [21] [22
 
 
 
-] [25] [26] [27
+] [23] [24] [25
 
 
-] [28]
+] [26]
 \openout2 = `Chapters/p04-Discussion.aux'.
 
  (Chapters/p04-Discussion.tex
-Chapter 11.
-
-Overfull \hbox (0.84937pt too wide) in paragraph at lines 2--2
-[]\U/eur/b/n/70 11 
- []
-
-) [29
+Chapter 9.
+) [27
 
 
 
@@ -2262,8 +2366,8 @@ Overfull \hbox (0.84937pt too wide) in paragraph at lines 2--2
 \openout2 = `Chapters/p04-FutureWork.aux'.
 
  (Chapters/p04-FutureWork.tex
-Chapter 12.
-[30
+Chapter 10.
+[28
 
 
 
@@ -2272,36 +2376,36 @@ Chapter 12.
 
 ]
 Overfull \hbox (0.84937pt too wide) in paragraph at lines 2--2
-[]\U/eur/b/n/70 12 
+[]\U/eur/b/n/70 10 
  []
 
-) [31] [32
+) [29] [30
 
 
 
-] [33] [34]
+] [31] [32]
 \openout2 = `Chapters/Interview01.aux'.
 
  (Chapters/Interview01.tex
 Appendix A.
-) [35
+[33
 
 
 
-]
+] [34] [35]) [36]
 \openout2 = `Chapters/Interview02.aux'.
 
  (Chapters/Interview02.tex
 Appendix B.
-[36
+[37
 
 
 
 
-]) [37]
+] [38]) [39]
 \openout2 = `FrontBackmatter/Bibliography.aux'.
 
- (FrontBackmatter/Bibliography.tex [38
+ (FrontBackmatter/Bibliography.tex [40
 
 
 
@@ -2324,13 +2428,13 @@ Overfull \hbox (4.48698pt too wide) in paragraph at lines 15--15
 d Wave.
  []
 
-
+[41]
 Overfull \hbox (4.89465pt too wide) in paragraph at lines 15--15
 \T1/pplj/m/n/10.95 an-a-lyt-ics dash-board to sup-port stu-dents' learn-ing per
 -for-mance.
  []
 
-[39]
+
 Overfull \hbox (13.64014pt too wide) in paragraph at lines 15--15
 \T1/pplj/m/n/10.95 4506. \T1/pplj/m/sc/10.95 doi\T1/pplj/m/n/10.95 : [][]$\T1/f
 vm/m/n/10.95 10 . 3138 / cmlr . 56 . 2 . 282$[][]\T1/pplj/m/n/10.95 . \T1/pplj/
@@ -2349,6 +2453,12 @@ Overfull \hbox (1.91371pt too wide) in paragraph at lines 15--15
 \T1/pplj/m/it/10.95 sign\T1/pplj/m/n/10.95 . 2017. \T1/pplj/m/sc/10.95 url\T1/p
 plj/m/n/10.95 : [][]$\T1/fvm/m/n/10.95 http : / / www . cs . rug . nl / svcg / 
 VisualAnalytics /
+ []
+
+
+Overfull \hbox (20.05844pt too wide) in paragraph at lines 15--15
+\T1/fvm/m/n/10.95 understanding -[] google -[] analytics -[] time -[] page -[] 
+session -[] duration/$[][]
  []
 
 
@@ -2372,37 +2482,36 @@ j/m/sc/10.95 url\T1/pplj/m/n/10.95 : [][]$\T1/fvm/m/n/10.95 http : / / journals
  .
  []
 
-
+[42]
 Overfull \hbox (8.47414pt too wide) in paragraph at lines 15--15
 \T1/pplj/m/n/10.95 edge. In: \T1/pplj/m/it/10.95 Ap-plied Lin-guis-tics \T1/pp
 lj/m/n/10.95 28.1 (2007), pp. 4665. \T1/pplj/m/sc/10.95 issn\T1/pplj/m/n/10.95
  : 01426001.
  []
 
-) [40]
+) [43]
 \openout2 = `FrontBackmatter/Declaration.aux'.
 
- (FrontBackmatter/Declaration.tex) [41
+ (FrontBackmatter/Declaration.tex [44
 
 
 
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 149.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 149.
+]) [45]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 150.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 150.
  (ClassicThesis.aux
 (FrontBackmatter/Titlepage.aux) (FrontBackmatter/Titleback.aux)
 (FrontBackmatter/Abstract.aux) (FrontBackmatter/Acknowledgments.aux)
-(Chapters/p01-Introduction.aux) (Chapters/p01-LearningAnalytics.aux)
-(Chapters/p01-Dashboards.aux) (Chapters/p01-ActivityTracking.aux)
-(Chapters/p01-WordKnowledge.aux) (Chapters/p02-Implementation.aux)
+(FrontBackmatter/Contents.aux) (Chapters/p01-Introduction.aux)
+(Chapters/p01-LearningAnalytics.aux) (Chapters/p01-ActivityTracking.aux)
+(Chapters/p01-Dashboards.aux) (Chapters/p02-Implementation.aux)
 (Chapters/p02-Interviews.aux) (Chapters/p02-SessionTracking.aux)
-(Chapters/p02-WordHistoryTracking.aux) (Chapters/p02-Dashboard.aux)
-(Chapters/p04-Discussion.aux) (Chapters/p04-Conclusion.aux)
-(Chapters/p04-FutureWork.aux) (Chapters/Interview01.aux)
-(Chapters/Interview02.aux) (FrontBackmatter/Bibliography.aux)
-(FrontBackmatter/Declaration.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 149.
+(Chapters/p02-Dashboard.aux) (Chapters/p04-Discussion.aux)
+(Chapters/p04-Conclusion.aux) (Chapters/p04-FutureWork.aux)
+(Chapters/Interview01.aux) (Chapters/Interview02.aux)
+(FrontBackmatter/Bibliography.aux) (FrontBackmatter/Declaration.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 150.
 
 
  *File List*
@@ -2550,6 +2659,8 @@ titlesec.sty    2016/03/21 v2.10.2 Sectioning titles
  scrtime.sty    2018/03/30 v3.25 KOMA-Script package (time of LaTeX run)
 prelim2e.sty    2009/05/29 v1.3 prelim2e Package (MS)
 everyshi.sty    2001/05/15 v3.00 EveryShipout Package (MS)
+dramatist.sty    2014/12/18 v1.2e Package for typesetting drama -- Author: Mass
+imiliano Dominici
  english.lbx    2018/03/04 v3.11 biblatex localization (PK/MW)
 american.lbx    2018/03/04 v3.11 biblatex localization (PK/MW)
   german.lbx    2018/03/04 v3.11 biblatex localization (PK/MW)
@@ -2577,15 +2688,15 @@ FrontBackmatter/Titleback.tex
  ts1pplj.fd    2004/09/06 font definitions for TS1/pplj.
 FrontBackmatter/Abstract.tex
 FrontBackmatter/Acknowledgments.tex
+FrontBackmatter/Contents.tex
 Chapters/p01-Introduction.tex
 Chapters/p01-LearningAnalytics.tex
-Chapters/p01-Dashboards.tex
 Chapters/p01-ActivityTracking.tex
-Chapters/p01-WordKnowledge.tex
+Chapters/p01-Dashboards.tex
 Chapters/p02-Implementation.tex
 Chapters/p02-Interviews.tex
 Chapters/p02-SessionTracking.tex
-Chapters/p02-WordHistoryTracking.tex
+gfx/Finite_state_machine_diagramv2.png
 Chapters/p02-Dashboard.tex
 Chapters/p04-Discussion.tex
 Chapters/p04-Conclusion.tex
@@ -2596,41 +2707,34 @@ FrontBackmatter/Bibliography.tex
 FrontBackmatter/Declaration.tex
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 149.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 150.
 Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6E12C7C2B574F8D12A6C0A28F56EF343;1462.
+(rerunfilecheck)             Checksum: D4F838B7FF680FB4A82B1A5CEE2D77DF;1672.
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'ClassicThesis.run.xml'.
 \openout1 = `ClassicThesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 33893 strings out of 493305
- 641255 string characters out of 3137598
- 1140721 words of memory out of 3000000
- 36755 multiletter control sequences out of 15000+200000
-=======
- 33910 strings out of 493305
- 641997 string characters out of 3137598
- 1140693 words of memory out of 3000000
- 36764 multiletter control sequences out of 15000+200000
->>>>>>> template
- 593630 words of font info for 104 fonts, out of 3000000 for 9000
+ 34187 strings out of 493305
+ 645756 string characters out of 3137598
+ 1153604 words of memory out of 3000000
+ 37008 multiletter control sequences out of 15000+200000
+ 596555 words of font info for 108 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 65i,22n,90p,10519b,2180s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,22n,90p,10519b,3119s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/NonImportantPrograms/MikTeX/fonts/enc/dvips/base/8r.enc}<D:/NonImportantP
 rograms/MikTeX/fonts/type1/public/amsfonts/euler/eurb10.pfb><D:/NonImportantPro
 grams/MikTeX/fonts/type1/public/fpl/fplrc8a.pfb><D:/NonImportantPrograms/MikTeX
 /fonts/type1/public/fpl/fplrij8a.pfb><D:/NonImportantPrograms/MikTeX/fonts/type
-1/bera/fvmr8a.pfb><D:/NonImportantPrograms/MikTeX/fonts/type1/urw/palatino/uplr
-8a.pfb><D:/NonImportantPrograms/MikTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-<<<<<<< HEAD
-Output written on ClassicThesis.pdf (43 pages, 158791 bytes).
-=======
-Output written on ClassicThesis.pdf (45 pages, 160668 bytes).
->>>>>>> template
+1/bera/fvmr8a.pfb><D:/NonImportantPrograms/MikTeX/fonts/type1/urw/palatino/uplb
+8a.pfb><D:/NonImportantPrograms/MikTeX/fonts/type1/urw/palatino/uplr8a.pfb><D:/
+NonImportantPrograms/MikTeX/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on ClassicThesis.pdf (51 pages, 320554 bytes).
 PDF statistics:
- 439 PDF objects out of 1000 (max. 8388607)
- 94 named destinations out of 1000 (max. 500000)
- 17110 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 541 PDF objects out of 1000 (max. 8388607)
+ 114 named destinations out of 1000 (max. 500000)
+ 17667 words of extra memory for PDF output out of 20736 (max. 10000000)
 

@@ -249,6 +249,58 @@
     \field{year}{2015}
   \endentry
 
+  \entry{Ellis1993}{article}{}
+    \name{author}{1}{}{%
+      {{hash=EN}{%
+         family={Ellis},
+         familyi={E\bibinitperiod},
+         given={Nick},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Taylor {\&} Francis Group}%
+    }
+    \strng{namehash}{EN1}
+    \strng{fullhash}{EN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{abstract}{%
+    Abstract This paper reports a study of implicit and explicit learning of
+  second language (L2) grammatical forms, the “soft”-mutations of Welsh.
+  “Random” learners saw randomly ordered instances. “Rule” learners
+  first learned the rules. “Rule{\&}Instances” learners saw the rules
+  applied to instances. Initial learning, generalisations to new words and
+  constructions, implicit fast performance in a well-formedness RT decision
+  task, and explicit knowledge of the rules were recorded. Analyses of over
+  71,000 language trials demonstrate: (1) “Random” learners quickly achieve
+  competence on original learning material, but show little implicit learning,
+  performing poorly on well-formedness (or “grammaticality”) judgements,
+  and have poor acquisition of explicit knowledge of the underlying
+  rule-structure. (2) “Rule” learners take many trials to learn the rules
+  but this facilitates their understanding of the natural language. However,
+  they often know rules explicitly, yet fail to apply them in practice.
+  Explicit and implic...%
+    }
+    \verb{doi}
+    \verb 10.1080/09541449308520120
+    \endverb
+    \field{issn}{0954-1446}
+    \field{number}{3}
+    \field{pages}{289\bibrangedash 318}
+    \field{title}{{Rules and instances in foreign language learning:
+  Interactions of explicit and implicit knowledge}}
+    \verb{url}
+    \verb http://www.tandfonline.com/doi/abs/10.1080/09541449308520120
+    \endverb
+    \field{volume}{5}
+    \field{journaltitle}{European Journal of Cognitive Psychology}
+    \field{year}{1993}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Evenson2015}{misc}{}
     \name{author}{3}{}{%
       {{hash=EKR}{%
@@ -447,6 +499,58 @@
     \field{year}{2014}
   \endentry
 
+  \entry{Kuppens2010}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KAH}{%
+         family={Kuppens},
+         familyi={K\bibinitperiod},
+         given={An\bibnamedelima H.},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer games,English,Incidental language
+  acquisition,Music,Subtitled television}
+    \strng{namehash}{KAH1}
+    \strng{fullhash}{KAH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    A number of experimental studies have demonstrated the incidental
+  acquisition of a foreign language by children and adolescents when watching
+  foreign language television. While such experiments can only establish
+  short-term effects, this article investigates the extent to which children's
+  foreign language skills benefit from their long-term consumption of media. An
+  empirical study conducted in the Flemish (Dutch-speaking) area of Belgium
+  compared the self-reported use of three English language media by 374 pupils
+  in the last year of primary education with their scores on two oral
+  translation tests: one from Dutch to English and one vice versa. Two general
+  linear model analyses of variance reveal that pupils who frequently watch
+  subtitled English television programs and movies perform significantly better
+  on both tests. Interestingly, the effect of watching subtitled television and
+  movies is stronger with girls than with boys. Furthermore, playing English
+  computer games positively influences the scores on the English–Dutch test.%
+    }
+    \verb{doi}
+    \verb 10.1080/17439880903561876
+    \endverb
+    \field{isbn}{1743-9884}
+    \field{issn}{17439884}
+    \field{number}{1}
+    \field{pages}{65\bibrangedash 85}
+    \field{title}{{Incidental foreign language acquisition from media
+  exposure}}
+    \field{volume}{35}
+    \verb{file}
+    \verb :D$\backslash$:/Users/Documents/Msc Computer Science/Master Thesis/Re
+    \verb levant papers/Incidental foreign language acquisition from media expo
+    \verb sure.pdf:pdf
+    \endverb
+    \field{journaltitle}{Learning, Media and Technology}
+    \field{year}{2010}
+  \endentry
+
   \entry{Mircea2018}{misc}{}
     \name{author}{4}{}{%
       {{hash=LMF}{%
@@ -553,6 +657,21 @@
     }
     \field{eprinttype}{arXiv}
     \field{year}{2005}
+  \endentry
+
+  \entry{MisunderstoodMetrics}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{{Misunderstood Metrics: Time on Page / Average Session
+  Duration | Analytics Edge Help}}
+    \verb{url}
+    \verb https://help.analyticsedge.com/article/misunderstood-metrics-time-on-
+    \verb page-session-duration/
+    \endverb
+    \field{urlday}{08}
+    \field{urlmonth}{06}
+    \field{urlyear}{2018}
   \endentry
 
   \entry{Park2015}{article}{}
@@ -863,6 +982,21 @@
     Lecture slides about visualization and design pipelines%
     }
     \field{year}{2017}
+  \endentry
+
+  \entry{GoogleAnalytics01}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{title}{{Understanding Google Analytics ‘Time on Page' and
+  ‘Session Duration' | Branded3}}
+    \verb{url}
+    \verb https://www.branded3.com/blog/understanding-google-analytics-time-pag
+    \verb e-session-duration/
+    \endverb
+    \field{urlday}{08}
+    \field{urlmonth}{06}
+    \field{urlyear}{2018}
   \endentry
 
   \entry{Verbert2013}{article}{}

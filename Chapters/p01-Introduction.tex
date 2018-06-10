@@ -2,29 +2,35 @@
 \chapter{Introduction}\label{ch:introduction}
 %************************************************
 
-\section{Introduction}
-ITS (Intelligent tutoring systems) are applications that provide a user whose learning a topic, with adaptive capabilities that evaluate the progress of his learning process and provide custom feedback that helps the student focus on his opportunity areas.
-ITS are also used by teachers who monitor the students’ progress and help them provide timely and personalized feedback to the students during their learning process.
-\cite{Jugo2014}, \cite{Romero2008} and \cite{Dogan2009} have used data mining algorithms to extract relevant patterns in the learning process. Ranging from normal statistical visualizations \cite{Romero2008} to complex multidimensional visualization \cite{Dogan2009}, different approaches to provide understandable insight into the learning process have been researched. \citeauthor{Verbert2013}\cite{Verbert2013} has performed a comprehensive comparison of different analytical dashboard for ITS systems. Gamification \cite{Gonzalez2014} has also been proposed as a way to tackle lack of interest due to monotony in the learning experience.
+\section{Background}
 
-\section{Research questions}
-With the dynamic capabilities of the Web, a personalized textbook for learning foreign languages \cite{Mircea2018} is an ongoing research project. The tool allows users to read and learn new vocabulary by recommending texts of their own interest. A pilot test was implemented in a classroom and both students and professors showed an interest in using a tool like the one proposed. One of the outcomes from this research was that professors wanted to have monitoring functionalities that would allow them to keep track of their students' work and progress.
-Therefore an interactive dashboard with a set of relevant metrics was implemented.
-The two main research questions that get answered are:
+Intelligent Tutoring Systems (ITS) are software solutions that monitor, evaluate and provide feedback to students about their learning behavior. They also manage the content to be studied and can provide some functionality to interact with other users. ITS are also used by teachers who monitor the students’ progress and help them provide timely and personalized feedback during their learning process.
 
-\begin{enumerate}
-\item As a user of the Zeeguu System I want to see my learning progress in the system.
-\item As a teacher I want to see my students' usage of the system, as well as the amount and quality of work.
-\end{enumerate}
+\cite{Jugo2014}, \cite{Romero2008} and \cite{Dogan2009} have used data mining algorithms to extract relevant patterns in the learning process. Typical approaches are implementation of association rules to discover relations between learning sequences or content. Clustering techniques are commonly used to sub classify a group of students into interesting categories and, for example, detect users with learning difficulties. Although some more advanced implementations thrive to automate the supervision and leverage teachers' decision process.
 
+Ranging from normal statistical plots \cite{Romero2008} to complex multidimensional visualizations \cite{Dogan2009}, different approaches to provide understandable insight into the learning process have been researched. Histograms, pie charts and bar plots are well known visualizations that can be easily interpreted by untrained users, they are commonly used on dashboards and are useful for summarizing information. However, they are not powerful enough to display multiple evaluation criteria within a single screen.
 
-\section{Significance of research}
-Personalized textbook project \cite{Mircea2018} proved to be an auxiliary tool in the learning process by providing dynamic learning material and exercises according to the level of knowledge and the interests of the student. However, for the teacher it is difficult to evaluate the progress done by the students, so they need to ask for a written report about the work performed, which is not optimal nor trustworthy source of information. 
-By enabling the teachers to monitor in real time the work done by their students and the difficulties they are having, teachers are given additional tools so that they can personalized teaching assistance according to the students’ needs.
-Furthermore, with the continuous appearance of learning platforms and accessibility to dynamic content, it is certain that in the following years, new teaching methods that use technologies like this will emerge.
-These metrics will be extensible to other learnings platforms and topics.
+\citeauthor{Verbert2013}\cite{Verbert2013} has performed a comprehensive comparison of different analytical dashboards for ITS systems. He has classified them by target used (\Ie student or teacher) and by type of data being tracked (\Eg time spent, exercises results, documents interactions, etc). 
 
-%TODO include teacher's need to know the amount and quality of work
+Gamification \cite{Gonzalez2014} has also been proposed as a way to tackle lack of interest due to monotony. Motivation is a key factor in the success of a learning platform, especially due to the fact that there is not direct physical supervision. The student needs to be aware of the learning path and what distance he has traveled, thus realizing how much work is left to reach the desired goal.
+
+User actions can be detected with Javascript events. Google Analytics is the most common tracking technology used nowadays for analyzing users' activity. However it only detects when a user enters and leaves a page, completely ignoring the effective time spent using the web page or if the user is browsing a completely unrelated website in a different tab of the browser \cite{GoogleAnalytics01} \cite{MisunderstoodMetrics}. For the specific purpose of a web learning platform, it is critical to accurately track the time a user is investing on learning, thus knowing the time a user opened and closed a text is most of the times not realistic. An algorithm to accurately detect effective working sessions is explained in chapter \ref{p02:session_tracking}.
+
+\section{Motivation}
+With the dynamic capabilities of the Web, a personalized textbook for learning foreign languages \cite{Mircea2018} is an ongoing research project. The tool allows users to read and learn new vocabulary by recommending texts of their own interest. A pilot test was implemented in a classroom. Both students and professors showed an interest in using `the proposed tool. One of the outcomes from \citeauthor{Mircea2018} research was that professors wanted to have monitoring functionalities that would allow them to keep track of their students' work and progress.
+
+A major concern is that students can report false information regarding the work they have been doing with the application, and teachers' cannot provide timely corrective guidance. At the same time, students can have a misleading perception of the amount of work they have put on their studies, and might feel worried or unmotivated about their progress.
+
+There are different theories over what is the best approach to learn a second language. Some theories say it is better to learn rules and grammar first, others state that practice is the most important element \cite{Ellis1993}. \citeauthor{Kuppens2010} has demonstrated that indirect exposure to a foreign language improves the knowledge compared to those who only study is during school. Therefore, the amount of time is an important metric to evaluate the progress done by a student.
+
+Therefore the present research question is:
+How can I better measure the amount of time spent by a learner?
 
 %TODO a paragraph explaining what each section is about
+
+We know that with the continuous appearance of learning platforms and more accessibility to dynamic and free online content, it is certain that in the following years, new teaching methods that use technologies like this will emerge. As well, the results obtained with this research will be extensible not only to other learnings platforms but to any time tracking system.
+
+
+
+
 

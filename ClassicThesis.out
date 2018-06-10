@@ -1,26 +1,31 @@
 \BOOKMARK [1][-]{Abstract.1}{Abstract}{}% 1
 \BOOKMARK [1][-]{acknowledgments.1}{Acknowledgments}{}% 2
-\BOOKMARK [-1][]{part.1}{ Background}{}% 3
-\BOOKMARK [0][]{chapter.1}{1 Introduction}{part.1}% 4
-\BOOKMARK [1][-]{section.1.1}{1.1 Introduction}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.2}{1.2 Research questions}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.3}{1.3 Significance of research}{chapter.1}% 7
-\BOOKMARK [0][]{chapter.2}{2 Learning Analytics}{part.1}% 8
-\BOOKMARK [0][]{chapter.3}{3 Dashboards}{part.1}% 9
-\BOOKMARK [0][]{chapter.4}{4 Activity tracking}{part.1}% 10
-\BOOKMARK [0][]{chapter.5}{5 Word knowledge}{part.1}% 11
-\BOOKMARK [-1][]{part.2}{ Research methodology}{}% 12
-\BOOKMARK [0][]{chapter.6}{6 Implementation}{part.2}% 13
-\BOOKMARK [0][]{chapter.7}{7 Interviews}{part.2}% 14
-\BOOKMARK [0][]{chapter.8}{8 Session tracking}{part.2}% 15
-\BOOKMARK [0][]{chapter.9}{9 Word interaction tracking}{part.2}% 16
-\BOOKMARK [0][]{chapter.10}{10 Dashboard}{part.2}% 17
-\BOOKMARK [-1][]{part.3}{ Results}{}% 18
-\BOOKMARK [-1][]{part.4}{ Discussion}{}% 19
-\BOOKMARK [0][]{chapter.11}{11 Discussion}{part.4}% 20
-\BOOKMARK [0][]{chapter.12}{12 Future Work}{part.4}% 21
-\BOOKMARK [-1][]{part.5}{ Appendix}{}% 22
-\BOOKMARK [0][]{appendix.A}{A Interview A}{part.5}% 23
-\BOOKMARK [0][]{appendix.B}{B Interview B}{part.5}% 24
-\BOOKMARK [0][]{section*.1}{ Bibliography}{part.5}% 25
-\BOOKMARK [0][]{declaration.0}{Declaration}{part.5}% 26
+\BOOKMARK [1][-]{tableofcontents.1}{Contents}{}% 3
+\BOOKMARK [1][-]{lof.1}{List of Figures}{}% 4
+\BOOKMARK [1][-]{lot.1}{List of Tables}{}% 5
+\BOOKMARK [1][-]{lol.1}{Listings}{}% 6
+\BOOKMARK [1][-]{acronyms.1}{Acronyms}{}% 7
+\BOOKMARK [0][]{chapter.1}{1 Introduction}{}% 8
+\BOOKMARK [1][-]{section.1.1}{1.1 Background}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.2}{1.2 Motivation}{chapter.1}% 10
+\BOOKMARK [-1][]{part.1}{ Related work}{}% 11
+\BOOKMARK [0][]{chapter.2}{2 Learning Analytics}{part.1}% 12
+\BOOKMARK [0][]{chapter.3}{3 Activity tracking}{part.1}% 13
+\BOOKMARK [0][]{chapter.4}{4 Dashboards}{part.1}% 14
+\BOOKMARK [-1][]{part.2}{ Research methodology}{}% 15
+\BOOKMARK [0][]{chapter.5}{5 Implementation}{part.2}% 16
+\BOOKMARK [0][]{chapter.6}{6 Interviews}{part.2}% 17
+\BOOKMARK [0][]{chapter.7}{7 Session tracking}{part.2}% 18
+\BOOKMARK [1][-]{section.7.1}{7.1 Algorithm}{chapter.7}% 19
+\BOOKMARK [1][-]{section.7.2}{7.2 Reading session}{chapter.7}% 20
+\BOOKMARK [1][-]{section.7.3}{7.3 Exercise session}{chapter.7}% 21
+\BOOKMARK [0][]{chapter.8}{8 Dashboard}{part.2}% 22
+\BOOKMARK [-1][]{part.3}{ Results}{}% 23
+\BOOKMARK [-1][]{part.4}{ Discussion}{}% 24
+\BOOKMARK [0][]{chapter.9}{9 Discussion}{part.4}% 25
+\BOOKMARK [0][]{chapter.10}{10 Future Work}{part.4}% 26
+\BOOKMARK [-1][]{part.5}{ Appendix}{}% 27
+\BOOKMARK [0][]{appendix.A}{A Interview A}{part.5}% 28
+\BOOKMARK [0][]{appendix.B}{B Interview B}{part.5}% 29
+\BOOKMARK [0][]{section*.2}{ Bibliography}{part.5}% 30
+\BOOKMARK [0][]{declaration.0}{Declaration}{part.5}% 31
