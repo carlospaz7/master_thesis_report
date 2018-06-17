@@ -32,7 +32,7 @@
     \WarningFilter{scrreprt}{Usage of package `titlesec'}
     %\WarningFilter{scrreprt}{Activating an ugly workaround}
     \WarningFilter{titlesec}{Non standard sectioning command detected}
-\documentclass[ twoside,openright,titlepage,numbers=noenddot,headinclude,%1headlines,% letterpaper a4paper
+\documentclass[ twoside,openany,titlepage,numbers=noenddot,headinclude,%1headlines,% letterpaper a4paper
                 footinclude=false,cleardoublepage=empty,abstractoff, % <--- obsolete, remove (todo)
                 BCOR=5mm,paper=a4,fontsize=11pt,%11pt,a4paper,%
                 ngerman,american,%
@@ -115,9 +115,9 @@
 %%\addtocontents{toc}{\protect\clearpage} % <--- just debug stuff, ignore
 
 \part{Results}\label{pt:results}
+\include{Chapters/p03-Results}
 %TODO: tableau graphics and analysis of sessions
 %TODO: describe findings
-%TODO: visuals of word knowledge
 %\include{Chapters/Chapter03}
 
 
@@ -142,7 +142,7 @@
 %\cleardoublepage
 \include{FrontBackmatter/Bibliography}
 %\cleardoublepage
-\include{FrontBackmatter/Declaration}
+%\include{FrontBackmatter/Declaration}
 %\cleardoublepage\include{FrontBackmatter/Colophon}
 % ********************************************************************
 % Game Over: Restore, Restart, or Quit?

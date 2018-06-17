@@ -32,7 +32,11 @@
 \defcounter {refsection}{0}\relax 
 \ttl@tocsep 
 \defcounter {refsection}{0}\relax 
-\ttl@tocsep 
+\contentsline {table}{\numberline {9.1}{\ignorespaces User events classification, first iteration\relax }}{16}{table.caption.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {9.2}{\ignorespaces Average read sessions duration with different values of session\_timeout\relax }}{18}{table.caption.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {9.3}{\ignorespaces Comparative of the average session duration using different session\_timeout values for exercises\relax }}{19}{table.caption.7}
 \defcounter {refsection}{0}\relax 
 \ttl@tocsep 
 \defcounter {refsection}{0}\relax 

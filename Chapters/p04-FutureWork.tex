@@ -1,9 +1,12 @@
 %************************************************
 \chapter{Future Work}
-%************************************************
+%************************************************ 
 
+One of the main challenges for defining the session\_timeout is having statistically representative data. In this case, Zeeguu system has been recently deployed and has suffered constant modifications (being one of the latests scroll and page focus detection), this skews the analysis to only the last collected information. For this reason it is possible that in the future, with more data at hand, the session\_timeout can be better adjusted.
 
-Reading speed (also for filtering reading articles estimated reading time)
+A possible improvement to the implementation is having different session\_timeout values, either by class or by student. Helping better tailor the parameters and obtaining even better results. In the ideal system, if we knew that an article us too difficult for a user, we would expect a lot of translations, therefore the timeout could be set to a smaller value. On the contrary, for advanced users, the timeout could be larger given that they do not need to translate any word.
 
-Move to prescriptive analytics
+Once enough data is collected, reading speed calculation can be done, which could be used for filtering suggested articles based on available time, or even to make the session timeout smarter.
+
+The next step for the Zeeguu system will be moving to data mining and predictive analytics. For example, based on historical activity, the system could evaluate and categorize students based on their expected performance, and perhaps rise an alert for those who are under performing. 
 
