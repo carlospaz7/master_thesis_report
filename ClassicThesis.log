@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.7)  17 JUN 2018 15:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.7)  18 JUN 2018 16:20
 entering extended mode
 **./ClassicThesis.tex
 (ClassicThesis.tex
@@ -2132,7 +2132,13 @@ File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 
 (FrontBackmatter/Abstract.tex
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.30756pt on input line 13.
+(Font)              scaled to size 9.30756pt on input line 12.
+
+Overfull \hbox (8.37692pt too wide) in paragraph at lines 12--13
+\T1/pplj/m/n/10.95 on data anal-y-sis and en-ables qual-ity eval-u-a-tion of th
+e learn-ing progress.
+ []
+
 ) [3
 
 
@@ -2321,7 +2327,7 @@ t teacher grants
 
  (Chapters/p02-SessionTracking.tex
 Chapter 7.
-<gfx/Finite_state_machine_diagramv2.png, id=353, 1778.645pt x 771.88374pt>
+<gfx/Finite_state_machine_diagramv2.png, id=354, 1778.645pt x 771.88374pt>
 File: gfx/Finite_state_machine_diagramv2.png Graphic file (type png)
 <use gfx/Finite_state_machine_diagramv2.png>
 Package pdftex.def Info: gfx/Finite_state_machine_diagramv2.png  used on input 
@@ -2369,19 +2375,19 @@ v-er-ies (E.g.what
 
  (Chapters/p03-Results.tex
 Chapter 9.
-<gfx/total_read_time_5_min_no_scroll.png, id=380, 877.47826pt x 470.35725pt>
+<gfx/total_read_time_5_min_no_scroll.png, id=381, 877.47826pt x 470.35725pt>
 File: gfx/total_read_time_5_min_no_scroll.png Graphic file (type png)
 <use gfx/total_read_time_5_min_no_scroll.png>
 Package pdftex.def Info: gfx/total_read_time_5_min_no_scroll.png  used on input
  line 52.
 (pdftex.def)             Requested size: 151.19897pt x 81.04341pt.
-<gfx/avg_read_time_5_min_no_scroll.png, id=381, 867.24pt x 466.1415pt>
+<gfx/avg_read_time_5_min_no_scroll.png, id=382, 867.24pt x 466.1415pt>
 File: gfx/avg_read_time_5_min_no_scroll.png Graphic file (type png)
 <use gfx/avg_read_time_5_min_no_scroll.png>
 Package pdftex.def Info: gfx/avg_read_time_5_min_no_scroll.png  used on input l
 ine 55.
 (pdftex.def)             Requested size: 151.19897pt x 81.26302pt.
-<gfx/detailed_session_timeline_by_user_5min_no_scroll.png, id=382, 745.5855pt x
+<gfx/detailed_session_timeline_by_user_5min_no_scroll.png, id=383, 745.5855pt x
  125.268pt>
 File: gfx/detailed_session_timeline_by_user_5min_no_scroll.png Graphic file (ty
 pe png)
@@ -2393,19 +2399,19 @@ ng  used on input line 57.
 
 
 ]
-<gfx/total_read_time_2_min_scroll.png, id=388, 881.09175pt x 472.76625pt>
+<gfx/total_read_time_2_min_scroll.png, id=389, 881.09175pt x 472.76625pt>
 File: gfx/total_read_time_2_min_scroll.png Graphic file (type png)
 <use gfx/total_read_time_2_min_scroll.png>
 Package pdftex.def Info: gfx/total_read_time_2_min_scroll.png  used on input li
 ne 71.
 (pdftex.def)             Requested size: 151.19897pt x 81.12665pt.
-<gfx/avg_read_time_2_min_scroll.png, id=389, 731.1315pt x 464.937pt>
+<gfx/avg_read_time_2_min_scroll.png, id=390, 731.1315pt x 464.937pt>
 File: gfx/avg_read_time_2_min_scroll.png Graphic file (type png)
 <use gfx/avg_read_time_2_min_scroll.png>
 Package pdftex.def Info: gfx/avg_read_time_2_min_scroll.png  used on input line
  74.
 (pdftex.def)             Requested size: 151.19897pt x 96.14983pt.
-<gfx/detailed_session_timeline_by_user_2min_scroll.png, id=390, 746.79pt x 124.
+<gfx/detailed_session_timeline_by_user_2min_scroll.png, id=391, 746.79pt x 124.
 0635pt>
 File: gfx/detailed_session_timeline_by_user_2min_scroll.png Graphic file (type 
 png)
@@ -2419,18 +2425,18 @@ Overfull \hbox (3.71472pt too wide) in alignment at lines 105--105
 [][][]
  []
 
-<gfx/total_read_time_4_min.png, id=411, 735.9495pt x 464.33475pt>
+<gfx/total_read_time_4_min.png, id=412, 735.9495pt x 464.33475pt>
 File: gfx/total_read_time_4_min.png Graphic file (type png)
 <use gfx/total_read_time_4_min.png>
 Package pdftex.def Info: gfx/total_read_time_4_min.png  used on input line 117.
 
 (pdftex.def)             Requested size: 151.19897pt x 95.3947pt.
-<gfx/avg_read_time_4_min.png, id=412, 731.73375pt x 452.28975pt>
+<gfx/avg_read_time_4_min.png, id=413, 731.73375pt x 452.28975pt>
 File: gfx/avg_read_time_4_min.png Graphic file (type png)
 <use gfx/avg_read_time_4_min.png>
 Package pdftex.def Info: gfx/avg_read_time_4_min.png  used on input line 120.
 (pdftex.def)             Requested size: 151.19897pt x 93.45844pt.
-<gfx/detailed_session_timeline_by_user_4min.png, id=413, 741.972pt x 92.14426pt
+<gfx/detailed_session_timeline_by_user_4min.png, id=414, 741.972pt x 92.14426pt
 >
 File: gfx/detailed_session_timeline_by_user_4min.png Graphic file (type png)
 <use gfx/detailed_session_timeline_by_user_4min.png>
@@ -2460,18 +2466,18 @@ Overfull \hbox (3.32979pt too wide) in paragraph at lines 4--5
 in-for-ma-tion about
  []
 
-<gfx/Heatmap_by_user.png, id=437, 1285.80376pt x 459.96844pt>
+<gfx/Heatmap_by_user.png, id=438, 1285.80376pt x 459.96844pt>
 File: gfx/Heatmap_by_user.png Graphic file (type png)
 <use gfx/Heatmap_by_user.png>
 Package pdftex.def Info: gfx/Heatmap_by_user.png  used on input line 14.
 (pdftex.def)             Requested size: 151.19897pt x 54.0849pt.
-<gfx/Reading_time_by_weekday.png, id=438, 487.22025pt x 235.47975pt>
+<gfx/Reading_time_by_weekday.png, id=439, 487.22025pt x 235.47975pt>
 File: gfx/Reading_time_by_weekday.png Graphic file (type png)
 <use gfx/Reading_time_by_weekday.png>
 Package pdftex.def Info: gfx/Reading_time_by_weekday.png  used on input line 16
 .
 (pdftex.def)             Requested size: 151.19897pt x 73.07341pt.
-<gfx/Treemap_by_article.png, id=440, 861.2175pt x 463.7325pt>
+<gfx/Treemap_by_article.png, id=441, 861.2175pt x 463.7325pt>
 File: gfx/Treemap_by_article.png Graphic file (type png)
 <use gfx/Treemap_by_article.png>
 Package pdftex.def Info: gfx/Treemap_by_article.png  used on input line 25.
@@ -2479,7 +2485,7 @@ Package pdftex.def Info: gfx/Treemap_by_article.png  used on input line 25.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<gfx/avg_time_spent_by_article.png, id=442, 879.88725pt x 156.585pt>
+<gfx/avg_time_spent_by_article.png, id=443, 879.88725pt x 156.585pt>
 File: gfx/avg_time_spent_by_article.png Graphic file (type png)
 <use gfx/avg_time_spent_by_article.png>
 Package pdftex.def Info: gfx/avg_time_spent_by_article.png  used on input line 
@@ -2488,7 +2494,7 @@ Package pdftex.def Info: gfx/avg_time_spent_by_article.png  used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<gfx/Personal_dashboard.png, id=444, 602.25pt x 481.8pt>
+<gfx/Personal_dashboard.png, id=445, 602.25pt x 481.8pt>
 File: gfx/Personal_dashboard.png Graphic file (type png)
 <use gfx/Personal_dashboard.png>
 Package pdftex.def Info: gfx/Personal_dashboard.png  used on input line 43.
@@ -2497,12 +2503,12 @@ Package pdftex.def Info: gfx/Personal_dashboard.png  used on input line 43.
 
 
  <./gfx/Heatmap_by_user.png> <./gfx/Reading_time_by_weekday.png (PNG copy)>]
-<gfx/Total_exercise_time.png, id=452, 862.422pt x 213.1965pt>
+<gfx/Total_exercise_time.png, id=453, 862.422pt x 213.1965pt>
 File: gfx/Total_exercise_time.png Graphic file (type png)
 <use gfx/Total_exercise_time.png>
 Package pdftex.def Info: gfx/Total_exercise_time.png  used on input line 57.
 (pdftex.def)             Requested size: 235.19897pt x 58.14287pt.
-<gfx/Class_exercise_by_weekday.png, id=454, 631.158pt x 175.25475pt>
+<gfx/Class_exercise_by_weekday.png, id=455, 631.158pt x 175.25475pt>
 File: gfx/Class_exercise_by_weekday.png Graphic file (type png)
 <use gfx/Class_exercise_by_weekday.png>
 Package pdftex.def Info: gfx/Class_exercise_by_weekday.png  used on input line 
@@ -2510,13 +2516,13 @@ Package pdftex.def Info: gfx/Class_exercise_by_weekday.png  used on input line
 (pdftex.def)             Requested size: 235.19897pt x 65.30586pt.
 [23 <./gfx/Treemap_by_article.png (PNG copy)> <./gfx/avg_time_spent_by_article.
 png> <./gfx/Personal_dashboard.png>]
-<gfx/Avg_exercise_session_duration.png, id=461, 862.422pt x 200.54926pt>
+<gfx/Avg_exercise_session_duration.png, id=462, 862.422pt x 200.54926pt>
 File: gfx/Avg_exercise_session_duration.png Graphic file (type png)
 <use gfx/Avg_exercise_session_duration.png>
 Package pdftex.def Info: gfx/Avg_exercise_session_duration.png  used on input l
 ine 76.
 (pdftex.def)             Requested size: 235.19897pt x 54.69371pt.
-<gfx/Exercise_timeline.png, id=463, 862.422pt x 248.72925pt>
+<gfx/Exercise_timeline.png, id=464, 862.422pt x 248.72925pt>
 File: gfx/Exercise_timeline.png Graphic file (type png)
 <use gfx/Exercise_timeline.png>
 Package pdftex.def Info: gfx/Exercise_timeline.png  used on input line 85.
@@ -2525,7 +2531,7 @@ Package pdftex.def Info: gfx/Exercise_timeline.png  used on input line 85.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<gfx/Session_durations_by_user.png, id=465, 1971.16425pt x 451.6875pt>
+<gfx/Session_durations_by_user.png, id=466, 1971.16425pt x 451.6875pt>
 File: gfx/Session_durations_by_user.png Graphic file (type png)
 <use gfx/Session_durations_by_user.png>
 Package pdftex.def Info: gfx/Session_durations_by_user.png  used on input line 
@@ -2913,7 +2919,7 @@ Package logreq Info: Writing requests to 'ClassicThesis.run.xml'.
 Here is how much of TeX's memory you used:
  34403 strings out of 493305
  652885 string characters out of 3137598
- 1156668 words of memory out of 3000000
+ 1157716 words of memory out of 3000000
  37184 multiletter control sequences out of 15000+200000
  596555 words of font info for 108 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -2925,9 +2931,9 @@ grams/MikTeX/fonts/type1/public/fpl/fplrc8a.pfb><D:/NonImportantPrograms/MikTeX
 1/bera/fvmr8a.pfb><D:/NonImportantPrograms/MikTeX/fonts/type1/urw/palatino/uplb
 8a.pfb><D:/NonImportantPrograms/MikTeX/fonts/type1/urw/palatino/uplr8a.pfb><D:/
 NonImportantPrograms/MikTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (44 pages, 1053964 bytes).
+Output written on ClassicThesis.pdf (44 pages, 1053992 bytes).
 PDF statistics:
- 643 PDF objects out of 1000 (max. 8388607)
+ 644 PDF objects out of 1000 (max. 8388607)
  138 named destinations out of 1000 (max. 500000)
  17826 words of extra memory for PDF output out of 20736 (max. 10000000)
 
