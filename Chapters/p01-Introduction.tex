@@ -2,42 +2,42 @@
 \chapter{Introduction}\label{ch:introduction}
 %************************************************
 
-\section{Background}
+%\section{Background}
 
 Intelligent Tutoring Systems (ITS) are software solutions that monitor, evaluate and provide feedback to students about their learning behavior. They also manage the content to be studied and can provide some functionality to interact with other users. ITS are also used by teachers who monitor the students’ progress and help them provide timely and personalized feedback during their learning process.
 
-\cite{Jugo2014}, \cite{Romero2008} and \cite{Dogan2009} have used data mining algorithms to extract relevant patterns in the learning process. Typical approaches are implementation of association rules to discover relations between learning sequences or content. Clustering techniques are commonly used to sub classify a group of students into interesting categories and, for example, detect users with learning difficulties. Although some more advanced implementations thrive to automate the supervision and leverage teachers' decision process.
+\citeauthor{Jugo2014} \cite{Jugo2014}, \citeauthor{Romero2008} \cite{Romero2008} and \citeauthor{Dogan2009} \cite{Dogan2009} have used data mining algorithms to extract relevant patterns in the learning process. Typical approaches are association rules to discover relations between learning sequences or content. Clustering techniques are commonly used to sub classify a group of students into interesting categories and, for example, detect users with learning difficulties. And some more advanced implementations strive to automate the supervision and leverage teachers' decision process.
 
-Ranging from normal statistical plots \cite{Romero2008} to complex multidimensional visualizations \cite{Dogan2009}, different approaches to provide understandable insight into the learning process have been researched. Histograms, pie charts and bar plots are well known visualizations that can be easily interpreted by untrained users, they are commonly used on dashboards and are useful for summarizing information. However, they are not powerful enough to display multiple evaluation criteria within a single screen.
+Ranging from normal statistical plots \cite{Romero2008} to complex multidimensional visualizations \cite{Dogan2009}, different approaches to provide understandable insight into the learning process have been researched. Histograms, pie charts and bar plots are known visualizations that are easily interpreted by untrained users, they are commonly used on dashboards and help summarizing information.
 
-\citeauthor{Verbert2013}\cite{Verbert2013} has performed a comprehensive comparison of different analytical dashboards for ITS systems. He has classified them by target used (\Ie student or teacher) and by type of data being tracked (\Eg time spent, exercises results, documents interactions, etc). 
+\citeauthor{Verbert2013} \cite{Verbert2013} have performed a comprehensive comparison of different analytical dashboards for ITS systems. He has classified them by target used (\Ie\ student or teacher) and by type of data being tracked (\eg, time spent, exercises results, documents interactions, etc). 
 
-Gamification \cite{Gonzalez2014} has also been proposed as a way to tackle lack of interest due to monotony. Motivation is a key factor in the success of a learning platform, especially due to the fact that there is not direct physical supervision. The student needs to be aware of the learning path and what distance he has traveled, thus realizing how much work is left to reach the desired goal.
+Motivation is a key factor in the success of a learning platform, especially due to the fact that there is not direct physical supervision. Gamification \cite{Gonzalez2014} has \ been proposed as a way to tackle lack of interest due to monotony. The student needs to be aware of the learning path and what distance he has traveled, thus realizing how much work is left to reach the desired goal.
 
 User actions can be detected with Javascript events. Google Analytics is the most common tracking technology used nowadays for analyzing users' activity. However it only detects when a user enters and leaves a page, completely ignoring the effective time spent using the web page or if the user is browsing a completely unrelated website in a different tab of the browser \cite{GoogleAnalytics01} \cite{MisunderstoodMetrics}. For the specific purpose of a web learning platform, it is critical to accurately track the time a user is investing on learning, thus knowing the time a user opened and closed a text is most of the times not realistic. An algorithm to accurately detect effective working sessions is explained in chapter \ref{p02:session_tracking}.
 
 \section{Motivation}
-With the dynamic capabilities of the Web, a personalized textbook for learning foreign languages \cite{Mircea2018} is an ongoing research project. The tool allows users to read and learn new vocabulary by recommending texts of their own interest. A pilot test was implemented in a classroom. Both students and professors showed an interest in using `the proposed tool. One of the outcomes from \citeauthor{Mircea2018} research was that professors wanted to have monitoring functionalities that would allow them to keep track of their students' work and progress.
+With the dynamic capabilities of the Web, a personalized textbook for learning foreign languages \cite{Mircea2018} is an ongoing research project. The tool allows users to read and learn new vocabulary by recommending texts of their own interest. A pilot test was implemented in a classroom. Both students and professors showed an interest in using the proposed tool. One of the outcomes from this research was that professors wanted to have monitoring functionalities that would allow them to keep track of their students' work and progress.
 
-A major concern is that students can report false information regarding the work they have been doing with the application, and teachers' cannot provide timely corrective guidance. At the same time, students can have a misleading perception of the amount of work they have put on their studies, and might feel worried or unmotivated about their progress.
+Two major concerns are that students can report false information regarding the work they have been doing with the application, and that teachers' cannot provide timely corrective guidance. At the same time, students can have a misleading perception of the amount of work they have put on their studies, and might feel worried or unmotivated about their progress.
 
 There are different theories over what is the best approach to learn a second language. Some theories say it is better to learn rules and grammar first, others state that practice is the most important element \cite{Ellis1993}. \citeauthor{Kuppens2010} has demonstrated that indirect exposure to a foreign language improves the knowledge compared to those who only study is during school. Therefore, the amount of time is an important metric to evaluate the progress done by a student.
 
-Therefore the present research question is:
-How can I better measure the amount of time spent by a learner?
+Therefore the present research question is: \\
 
-We know that with the continuous appearance of learning platforms and more accessibility to dynamic and free online content, it is certain that in the following years, new teaching methods that use technologies like this will emerge. As well, the results obtained with this research will be extensible not only to other learnings platforms but to any time tracking system.
+\emph{How to better measure the learning time?}\\
 
+The results of this research are applicable to the rest of ITS as well as any system that needs time tracking functionality.
 
 \section{Outline}
 
-In Part I, state of the art work is discussed. First, an explanation of what learning analytics is and previous attempts to use activity tracking for this purpose are discussed. A specific gap is addressed that opens the need for this research project. Finalizing with an introductory explanation of what dashboards are and how they help in visual analytics.
+In Chapter \ref{p01:related_work}, state of the art work is discussed. First, an explanation of what learning analytics is and previous attempts to use activity tracking for this purpose are discussed. A specific gap is described that opens the need for this research project. Finalizing with an introductory explanation of what dashboards are and how they help in visual analytics.
 
-In the second part, the research methodology is described. The goal of this project is to provide teachers who use Zeeguu with the tools to evaluate their students' work, therefore specific requirements were extracted by interviewing two key users. Once the critical requirements were obtained, a conceptual design of an algorithm for tracking users' activity is described. Specific tweaks to the algorithm are used while implementing it for the reading and exercise activities.
+In the Chapter \ref{p02:implementation}, the research methodology is described. The goal of this project is to provide teachers who use Zeeguu with the tools to evaluate their students' work, therefore specific requirements were extracted by interviewing two key users. Once the critical requirements were obtained, a conceptual design of an algorithm for tracking users' activity is described. Specific tweaks to the algorithm are explained while implementing it for the reading and exercise activities.
 
 After the code implementation, different tests were run to find the optimal settings for both implementations.
 
-Finally, an analysis of the obtained results and possible conclusions are addressed.
+Finally, an analysis of the obtained results is presented.
 
 %TODO a paragraph explaining what each section is about
 

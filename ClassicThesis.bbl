@@ -780,57 +780,9 @@
     \verb detect-the-user-leaves-page/27573995{\#}27573995
     \endverb
     \field{year}{2014}
-  \endentry
-
-  \entry{Qian1999}{article}{}
-    \name{author}{1}{}{%
-      {{hash=QDD}{%
-         family={Qian},
-         familyi={Q\bibinitperiod},
-         given={David\bibnamedelima D.},
-         giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{QDD1}
-    \strng{fullhash}{QDD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{Q}
-    \field{sortinithash}{Q}
-    \field{abstract}{%
-    This empirical study explored the relationships between depth and breadth
-  of vocabulary knowledge and reading comprehension in English as a second
-  language (ESL). Using multivariate analyses, the study examined the roles of
-  depth and breadth of vocabulary knowledge in assessing the performance of a
-  group of young adult ESL learners with a minimum vocabulary size of 3,000
-  word families in carrying out general academic reading comprehension tasks.
-  The results support the hypotheses that (1) scores on vocabulary size, depth
-  of vocabulary knowledge, and reading comprehension are highly, and
-  positively, correlated; and (2) scores on depth of vocabulary knowledge can
-  make a unique contribution to the prediction of reading comprehension levels,
-  in addition to the prediction afforded by vocabulary size scores. The
-  findings from this study call for a recognition of the importance of
-  improving depth of vocabulary knowledge in learners' ESL learning processes.%
-    }
-    \verb{doi}
-    \verb 10.3138/cmlr.56.2.282
-    \endverb
-    \field{isbn}{0008-4506}
-    \field{issn}{0008-4506}
-    \field{number}{2}
-    \field{pages}{282\bibrangedash 308}
-    \field{title}{{Assessing the roles of depth and breadth of vocabulary
-  knowledge in reading comprehension}}
-    \verb{url}
-    \verb http://www.utpjournals.press/doi/10.3138/cmlr.56.2.282
-    \endverb
-    \field{volume}{56}
-    \field{journaltitle}{Canadian Modern Language Review}
-    \field{annotation}{%
-    Vocabulary breadth does not imply a good understanding. Vocabulary depth
-  does.%
-    }
-    \field{year}{1999}
+    \field{urlday}{06}
+    \field{urlmonth}{06}
+    \field{urlyear}{2018}
   \endentry
 
   \entry{Romero2008}{article}{}
@@ -1117,54 +1069,7 @@
     \field{year}{2007}
   \endentry
 
-  \entry{Webb2007}{article}{}
-    \name{author}{1}{}{%
-      {{hash=WS}{%
-         family={Webb},
-         familyi={W\bibinitperiod},
-         given={Stuart},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{WS1}
-    \strng{fullhash}{WS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-    \field{abstract}{%
-    This article discusses the effects of repetition (1, 3, 7, and 10
-  encounters) on word knowledge in a carefully controlled study of 121 Japanese
-  students learning English. The study is innovative and original in several
-  aspects. (1) The study uses 10 tests to measure knowledge of orthography,
-  association, grammatical functions, syntax, and meaning and form. (2) The
-  study controls for several different numbers of repetitions. (3) The study
-  controls for type of context in which the word occurs. (4) The study makes
-  use of nonsense words to replace frequently used words in authentic text. (5)
-  The study examines word knowledge acquisition at different levels. The
-  results showed that greater gains in knowledge were found for at least one
-  aspect of knowledge each time repetitions increased. If learners encounter
-  unknown words ten times in context, sizeable learning gains may occur.
-  However, to develop full knowledge of a word more than ten repetitions may be
-  needed.%
-    }
-    \verb{doi}
-    \verb 10.1093/applin/aml048
-    \endverb
-    \field{isbn}{0142-6001$\backslash$r1477-450X}
-    \field{issn}{01426001}
-    \field{number}{1}
-    \field{pages}{46\bibrangedash 65}
-    \field{title}{{The effects of repetition on vocabulary knowledge}}
-    \field{volume}{28}
-    \field{journaltitle}{Applied Linguistics}
-    \field{annotation}{%
-    Repetition in reading texts improves vocabulary knowledge%
-    }
-    \field{year}{2007}
-  \endentry
-
-  \entry{Wikipedia2016}{article}{}
+  \entry{Wikipedia2016}{misc}{}
     \name{author}{1}{}{%
       {{hash=W}{%
          family={Wikipedia},
@@ -1187,13 +1092,16 @@
   evidence has found that the use of these type of devices results in less
   weight loss rather than more.%
     }
+    \field{booktitle}{Wikipedia}
     \field{pages}{1\bibrangedash 2}
     \field{title}{{Activity tracker}}
     \verb{url}
     \verb https://en.wikipedia.org/wiki/Activity{\_}tracker
     \endverb
-    \field{journaltitle}{Wikipedia}
     \field{year}{2016}
+    \field{urlday}{07}
+    \field{urlmonth}{06}
+    \field{urlyear}{2018}
   \endentry
 \enddatalist
 \endinput

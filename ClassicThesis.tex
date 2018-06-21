@@ -71,7 +71,7 @@
 %\include{FrontBackmatter/DirtyTitlepage}
 \include{FrontBackmatter/Titlepage}
 \include{FrontBackmatter/Titleback}
-%\cleardoublepage\include{FrontBackmatter/Foreword}
+%\cleardoublepage\include{FrontBackmatter/\label{key}Foreword}
 %\cleardoublepage
 \include{FrontBackmatter/Abstract}
 %\cleardoublepage
@@ -89,10 +89,11 @@
 %\cleardoublepage
 
 \include{Chapters/p01-Introduction}
-\part{Related work}\label{pt:related_work}
-\include{Chapters/p01-LearningAnalytics}
-\include{Chapters/p01-ActivityTracking}
-\include{Chapters/p01-Dashboards}
+%\part{Related work}\label{pt:related_work}
+%\chapter{Related work}\label{p01:related_work}
+\input{Chapters/p01-LearningAnalytics}
+\input{Chapters/p01-ActivityTracking}
+\input{Chapters/p01-Dashboards}
 %\include{Chapters/p01-WordKnowledge}
 %\cleardoublepage
 %
@@ -104,27 +105,28 @@
 %da. Le usate medical addresses pro, europa origine sanctificate nos se.}
 
 
-\part{Research methodology}\label{pt:methodology}
-\include{Chapters/p02-Implementation}
+%\part{Research methodology}\label{pt:methodology}
+%\chapter{Research methodology}\label{pt:methodology}
+\input{Chapters/p02-Implementation}
 
-\include{Chapters/p02-Interviews}
-\include{Chapters/p02-SessionTracking}
+\input{Chapters/p02-Interviews}
+\input{Chapters/p02-SessionTracking}
 %\include{Chapters/p02-WordHistoryTracking}
-\include{Chapters/p02-Dashboard}
+%\include{Chapters/p02-Dashboard}
 %\include{Chapters/Chapter02_guide}
 %%\addtocontents{toc}{\protect\clearpage} % <--- just debug stuff, ignore
 
-\part{Results}\label{pt:results}
-\include{Chapters/p03-Results}
-%TODO: tableau graphics and analysis of sessions
-%TODO: describe findings
+%\part{Results}\label{pt:results}
+%\chapter{Results}\label{pt:results}
+\input{Chapters/p03-Results}
 %\include{Chapters/Chapter03}
 
 
-\part{Discussion}\label{pt:discussion}
-\include{Chapters/p04-Discussion}
-\include{Chapters/p04-Conclusion}
-\include{Chapters/p04-FutureWork}
+%\part{Discussion}\label{pt:discussion}
+%\chapter{Discussion}\label{pt:discussion}
+\input{Chapters/p04-Discussion}
+\input{Chapters/p04-Conclusion}
+\input{Chapters/p04-FutureWork}
 %%\include{multiToC} % <--- just debug stuff, ignore for your documents
 % ********************************************************************
 % Backmatter
@@ -132,9 +134,10 @@
 \appendix
 %\renewcommand{\thechapter}{\alph{chapter}}
 %\cleardoublepage
-\part{Appendix}\label{pt:appendix}
-\include{Chapters/Interview01}
-\include{Chapters/Interview02}
+%\part{Appendix}\label{pt:appendix}
+\chapter{Appendix}\label{pt:appendix}
+\input{Chapters/Interview01}
+\input{Chapters/Interview02}
 %\include{Chapters/Chapter0A}
 %********************************************************************
 % Other Stuff in the Back
