@@ -26,6 +26,9 @@ For the specific case of Zeeguu platform, the implementation of the algorithm is
 
 Figure \ref{fig:session_tracking_architecture} shows the architecture of the implementation. As we can observe, the implementation is divided in two layers, which means that they can work independently. Therefore the user actions can be tracked in real time, while the algorithm that computes the sessions can be run on a separate batch, thus leveraging the workload. The modules can also work in real time if the tracking module triggers the execution of the session stitching module.
 
+Relevant user actions are detected by the front end layer of the system, and stored in the database. The back end periodically retrieves the list of user events and stitches them or creates a new session depending on the type of event and the time between the actions. Therefore inserting the session information back in the database, making it available to be displayed.
+The front end layer can also trigger the execution of the session stitching module after each user activity, enabling real time session analysis.
+
 %TODO include layers diagram
 \begin{figure}[bth]
 	\centering

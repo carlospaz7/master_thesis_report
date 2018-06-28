@@ -130,6 +130,37 @@ Finally, for the detailed activity, a big change is observed, in figure \ref{fig
 	\caption{Low level session tracking time line}\label{fig:detailed_session_comparison}
 \end{figure}
 
+
+\subsection{Validation}
+Before the implementation of the session tracking, students manually reported the time spent reading in Zeeguu. Therefore a useful validation of the computed session tracking is against the reported time by students.
+In table \ref{tb:comparison_read_time} we can observe the difference between those times. There is a clear difference in the obtained results.
+
+\begin{table}[!htb]
+	\begin{tabularx}
+		{\textwidth}{Xllll}\toprule
+		\tableheadline{Student} & 
+		\tableheadline{Reported time} &
+		\tableheadline{Computed time} \\ 
+		\midrule 
+		Student 1
+		 & 11 hours
+		  & 59 minutes
+		   \\ 
+		\hline 
+		Student 2
+		 & 1.5 hours
+		  & 44 minutes
+		   \\ 
+		\hline
+		Student 3
+		 & 4 hours
+		  & 54 minutes
+		  \\ 
+		\hline 
+	\end{tabularx} 
+	\caption{Comparison of reading time reported by students vs the time computed by the algorithm (using a timeout value of 2 minutes)}\label{tb:comparison_read_time}
+\end{table}
+
 \section{Exercise session experiments}
 For the exercise sessions, the implementation is quite simple. Only two events are tracked:
 \begin{itemize}
@@ -148,3 +179,5 @@ In this case, the time between the exercise opening and the answering is compute
 \end{figure}
 
 Given that the tracked time window is so small, a final setup of no grace time but using the upper whisker value (21 seconds) is chosen.
+
+
