@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.7)  28 JUN 2018 13:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.7)  6 JUL 2018 15:09
 entering extended mode
 **./ClassicThesis.tex
 (ClassicThesis.tex
@@ -1923,28 +1923,28 @@ File: german.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 (Chapters/p01-Introduction.aux) (FrontBackmatter/Bibliography.aux))
 \openout1 = `ClassicThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 61.
 
 (D:\NonImportantPrograms\MikTeX\tex\latex\base\ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Try loading font information for T1+pplj on input line 60.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 61.
 
 (D:\NonImportantPrograms\MikTeX\tex\latex\psnfss\t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
@@ -1972,6 +1972,11 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Lungu16':
+(biblatex)                - Can't use 'location' + 'address'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'Romero2008':
 (biblatex)                - Invalid format of field 'month'.
 
@@ -1981,17 +1986,17 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Invalid format of field 'month'.
 
 )
-Package biblatex Info: Reference section=0 on input line 60.
-Package biblatex Info: Reference segment=0 on input line 60.
+Package biblatex Info: Reference section=0 on input line 61.
+Package biblatex Info: Reference segment=0 on input line 61.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count440
-Package scrhack Info: undefining \float@addtolists on input line 60.
+Package scrhack Info: undefining \float@addtolists on input line 61.
 \AtBeginShipoutBox=\box49
-Package hyperref Info: Link coloring ON on input line 60.
+Package hyperref Info: Link coloring ON on input line 61.
  (D:\NonImportantPrograms\MikTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -2000,9 +2005,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count441
 )
-LaTeX Info: Redefining \ref on input line 60.
-LaTeX Info: Redefining \pageref on input line 60.
-LaTeX Info: Redefining \nameref on input line 60.
+LaTeX Info: Redefining \ref on input line 61.
+LaTeX Info: Redefining \pageref on input line 61.
+LaTeX Info: Redefining \nameref on input line 61.
 
 (ClassicThesis.out) (ClassicThesis.out)
 \@outlinefile=\write5
@@ -2035,7 +2040,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \microtypecontext on input line 60.
+LaTeX Info: Redefining \microtypecontext on input line 61.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2180,16 +2185,16 @@ hed. His-tograms,
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-) [2] (Chapters/p01-LearningAnalytics.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+[2]) [3] (Chapters/p01-LearningAnalytics.tex
 Chapter 2.
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 9.30756pt on input line 5.
@@ -2207,17 +2212,17 @@ ll per-for-mance
 ) (Chapters/p01-ActivityTracking.tex
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 5.
- [3
+ [4
 
 
-]) (Chapters/p01-Dashboards.tex [4]
+]) (Chapters/p01-Dashboards.tex [5]
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
 ) (Chapters/p02-Implementation.tex
 Chapter 3.
-[5]
+[6]
 Overfull \hbox (5.5417pt too wide) in paragraph at lines 8--9
 []\T1/pplj/m/n/10.95 Once ob-tained the gen-eral out-lines, the al-go-rithm de-
 sign was started.
@@ -2229,10 +2234,10 @@ Overfull \hbox (3.65117pt too wide) in paragraph at lines 9--10
 t teacher grants
  []
 
-[6
+[7
 
 ]) (Chapters/p02-SessionTracking.tex
-<gfx/Finite_state_machine_diagramv2.png, id=257, 1778.645pt x 771.88374pt>
+<gfx/Finite_state_machine_diagramv2.png, id=264, 1778.645pt x 771.88374pt>
 File: gfx/Finite_state_machine_diagramv2.png Graphic file (type png)
 <use gfx/Finite_state_machine_diagramv2.png>
 Package pdftex.def Info: gfx/Finite_state_machine_diagramv2.png  used on input 
@@ -2243,31 +2248,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-[7 <./gfx/Finite_state_machine_diagramv2.png>]
-<gfx/session_tracking_architecture.png, id=266, 767.86874pt x 589.20125pt>
+[8 <./gfx/Finite_state_machine_diagramv2.png>]
+<gfx/session_tracking_architecture.png, id=274, 767.86874pt x 589.20125pt>
 File: gfx/session_tracking_architecture.png Graphic file (type png)
 <use gfx/session_tracking_architecture.png>
 Package pdftex.def Info: gfx/session_tracking_architecture.png  used on input l
-ine 35.
+ine 39.
 (pdftex.def)             Requested size: 235.19897pt x 180.4658pt.
- [8 <./gfx/session_tracking_architecture.png>] [9]) (Chapters/p03-Results.tex
+ [9 <./gfx/session_tracking_architecture.png>] [10]) (Chapters/p03-Results.tex
 Chapter 4.
-[10]
+[11]
 Overfull \hbox (2.88013pt too wide) in paragraph at lines 48--49
 \T1/pplj/m/n/10.95 For the base-line an ar-bitary value of 5 min-utes for the \
 T1/pplj/b/n/10.95 ses-sion_timeout
  []
 
-[11
+[12
 
 ]
-<gfx/total_read_time_by_user_5min.png, id=290, 867.84225pt x 455.90324pt>
+<gfx/total_read_time_by_user_5min.png, id=297, 867.84225pt x 455.90324pt>
 File: gfx/total_read_time_by_user_5min.png Graphic file (type png)
 <use gfx/total_read_time_by_user_5min.png>
 Package pdftex.def Info: gfx/total_read_time_by_user_5min.png  used on input li
 ne 55.
 (pdftex.def)             Requested size: 336.0pt x 176.51459pt.
-<gfx/detailed_session_timeline_by_user_5min_no_scroll.png, id=291, 745.5855pt x
+<gfx/detailed_session_timeline_by_user_5min_no_scroll.png, id=298, 745.5855pt x
  125.268pt>
 File: gfx/detailed_session_timeline_by_user_5min_no_scroll.png Graphic file (ty
 pe png)
@@ -2275,44 +2280,44 @@ pe png)
 Package pdftex.def Info: gfx/detailed_session_timeline_by_user_5min_no_scroll.p
 ng  used on input line 57.
 (pdftex.def)             Requested size: 336.0pt x 56.45226pt.
-<gfx/largest_iddle_time_1min_timeout.png, id=293, 224.037pt x 462.528pt>
+<gfx/largest_iddle_time_1min_timeout.png, id=300, 230.66174pt x 475.17525pt>
 File: gfx/largest_iddle_time_1min_timeout.png Graphic file (type png)
 <use gfx/largest_iddle_time_1min_timeout.png>
 Package pdftex.def Info: gfx/largest_iddle_time_1min_timeout.png  used on input
  line 70.
-(pdftex.def)             Requested size: 63.84082pt x 131.80067pt.
-<gfx/largest_iddle_time_2min_timeout.png, id=294, 228.855pt x 459.51675pt>
+(pdftex.def)             Requested size: 63.84082pt x 131.51103pt.
+<gfx/largest_iddle_time_2min_timeout.png, id=301, 230.66174pt x 464.937pt>
 File: gfx/largest_iddle_time_2min_timeout.png Graphic file (type png)
 <use gfx/largest_iddle_time_2min_timeout.png>
 Package pdftex.def Info: gfx/largest_iddle_time_2min_timeout.png  used on input
  line 72.
-(pdftex.def)             Requested size: 63.84082pt x 128.18701pt.
-<gfx/largest_iddle_time_3o2min_timeout.png, id=295, 228.855pt x 464.937pt>
+(pdftex.def)             Requested size: 63.84082pt x 128.67746pt.
+<gfx/largest_iddle_time_3o2min_timeout.png, id=302, 230.0595pt x 466.1415pt>
 File: gfx/largest_iddle_time_3o2min_timeout.png Graphic file (type png)
 <use gfx/largest_iddle_time_3o2min_timeout.png>
 Package pdftex.def Info: gfx/largest_iddle_time_3o2min_timeout.png  used on inp
 ut line 74.
-(pdftex.def)             Requested size: 63.84082pt x 129.69905pt.
-<gfx/largest_iddle_time_4min_timeout.png, id=296, 230.0595pt x 463.13025pt>
+(pdftex.def)             Requested size: 63.84082pt x 129.35223pt.
+<gfx/largest_iddle_time_4min_timeout.png, id=303, 224.63925pt x 466.1415pt>
 File: gfx/largest_iddle_time_4min_timeout.png Graphic file (type png)
 <use gfx/largest_iddle_time_4min_timeout.png>
 Package pdftex.def Info: gfx/largest_iddle_time_4min_timeout.png  used on input
  line 76.
-(pdftex.def)             Requested size: 63.84082pt x 128.51663pt.
-<gfx/largest_iddle_time_5min_timeout_v2.png, id=297, 231.86626pt x 463.7325pt>
-File: gfx/largest_iddle_time_5min_timeout_v2.png Graphic file (type png)
-<use gfx/largest_iddle_time_5min_timeout_v2.png>
-Package pdftex.def Info: gfx/largest_iddle_time_5min_timeout_v2.png  used on in
-put line 78.
-(pdftex.def)             Requested size: 63.84082pt x 127.67896pt.
- [12 <./gfx/total_read_time_by_user_5min.png> <./gfx/detailed_session_timeline_
+(pdftex.def)             Requested size: 63.84082pt x 132.47473pt.
+<gfx/largest_iddle_time_5min_timeout.png, id=304, 231.264pt x 472.76625pt>
+File: gfx/largest_iddle_time_5min_timeout.png Graphic file (type png)
+<use gfx/largest_iddle_time_5min_timeout.png>
+Package pdftex.def Info: gfx/largest_iddle_time_5min_timeout.png  used on input
+ line 78.
+(pdftex.def)             Requested size: 63.84082pt x 130.50526pt.
+ [13 <./gfx/total_read_time_by_user_5min.png> <./gfx/detailed_session_timeline_
 by_user_5min_no_scroll.png>]
 File: gfx/total_read_time_by_user_5min.png Graphic file (type png)
 <use gfx/total_read_time_by_user_5min.png>
 Package pdftex.def Info: gfx/total_read_time_by_user_5min.png  used on input li
 ne 113.
 (pdftex.def)             Requested size: 336.0pt x 176.51459pt.
-<gfx/total_read_time_by_user_2min.png, id=309, 870.8535pt x 460.72125pt>
+<gfx/total_read_time_by_user_2min.png, id=316, 870.8535pt x 460.72125pt>
 File: gfx/total_read_time_by_user_2min.png Graphic file (type png)
 <use gfx/total_read_time_by_user_2min.png>
 Package pdftex.def Info: gfx/total_read_time_by_user_2min.png  used on input li
@@ -2323,14 +2328,14 @@ Overfull \hbox (3.18645pt too wide) in paragraph at lines 113--116
  [][] 
  []
 
-<gfx/detailed_session_timeline_by_user_5min.png, id=312, 741.972pt x 122.25674p
+<gfx/detailed_session_timeline_by_user_5min.png, id=319, 741.972pt x 122.25674p
 t>
 File: gfx/detailed_session_timeline_by_user_5min.png Graphic file (type png)
 <use gfx/detailed_session_timeline_by_user_5min.png>
 Package pdftex.def Info: gfx/detailed_session_timeline_by_user_5min.png  used o
 n input line 125.
 (pdftex.def)             Requested size: 336.0pt x 55.362pt.
-<gfx/detailed_session_timeline_by_user_2min.png, id=313, 741.972pt x 122.25674p
+<gfx/detailed_session_timeline_by_user_2min.png, id=320, 741.972pt x 122.25674p
 t>
 File: gfx/detailed_session_timeline_by_user_2min.png Graphic file (type png)
 <use gfx/detailed_session_timeline_by_user_2min.png>
@@ -2342,13 +2347,13 @@ Overfull \hbox (3.18645pt too wide) in paragraph at lines 129--129
  [][] 
  []
 
-[13 <./gfx/largest_iddle_time_1min_timeout.png> <./gfx/largest_iddle_time_2min_
+[14 <./gfx/largest_iddle_time_1min_timeout.png> <./gfx/largest_iddle_time_2min_
 timeout.png> <./gfx/largest_iddle_time_3o2min_timeout.png> <./gfx/largest_iddle
-_time_4min_timeout.png> <./gfx/largest_iddle_time_5min_timeout_v2.png>]
-[14 <./gfx/total_read_time_by_user_2min.png> <./gfx/detailed_session_timeline_b
-y_user_5min.png (PNG copy)> <./gfx/detailed_session_timeline_by_user_2min.png (
-PNG copy)>]
-<gfx/exercise_solving_speed.png, id=337, 189.1065pt x 514.3215pt>
+_time_4min_timeout.png> <./gfx/largest_iddle_time_5min_timeout.png>] [15 <./gfx
+/total_read_time_by_user_2min.png> <./gfx/detailed_session_timeline_by_user_5mi
+n.png (PNG copy)> <./gfx/detailed_session_timeline_by_user_2min.png (PNG copy)>
+]
+<gfx/exercise_solving_speed.png, id=344, 189.1065pt x 514.3215pt>
 File: gfx/exercise_solving_speed.png Graphic file (type png)
 <use gfx/exercise_solving_speed.png>
 Package pdftex.def Info: gfx/exercise_solving_speed.png  used on input line 177
@@ -2356,24 +2361,24 @@ Package pdftex.def Info: gfx/exercise_solving_speed.png  used on input line 177
 (pdftex.def)             Requested size: 67.19897pt x 182.762pt.
 ) (Chapters/p04-Discussion.tex
 Chapter 5.
-[15 <./gfx/exercise_solving_speed.png>]
-Overfull \hbox (3.32979pt too wide) in paragraph at lines 4--5
+[16 <./gfx/exercise_solving_speed.png>]
+Overfull \hbox (3.32979pt too wide) in paragraph at lines 4--6
 \T1/pplj/m/n/10.95 After the im-ple-men-ta-tion of ses-sion track-ing, use-ful 
 in-for-ma-tion about
  []
 
-<gfx/Heatmap_by_user.png, id=345, 1285.80376pt x 459.96844pt>
+<gfx/Heatmap_by_user.png, id=352, 1285.80376pt x 459.96844pt>
 File: gfx/Heatmap_by_user.png Graphic file (type png)
 <use gfx/Heatmap_by_user.png>
 Package pdftex.def Info: gfx/Heatmap_by_user.png  used on input line 14.
 (pdftex.def)             Requested size: 151.19897pt x 54.0849pt.
-<gfx/Reading_time_by_weekday.png, id=346, 487.22025pt x 235.47975pt>
+<gfx/Reading_time_by_weekday.png, id=353, 487.22025pt x 235.47975pt>
 File: gfx/Reading_time_by_weekday.png Graphic file (type png)
 <use gfx/Reading_time_by_weekday.png>
 Package pdftex.def Info: gfx/Reading_time_by_weekday.png  used on input line 16
 .
 (pdftex.def)             Requested size: 151.19897pt x 73.07341pt.
-<gfx/Treemap_by_article.png, id=348, 861.2175pt x 463.7325pt>
+<gfx/Treemap_by_article.png, id=355, 861.2175pt x 463.7325pt>
 File: gfx/Treemap_by_article.png Graphic file (type png)
 <use gfx/Treemap_by_article.png>
 Package pdftex.def Info: gfx/Treemap_by_article.png  used on input line 25.
@@ -2381,70 +2386,62 @@ Package pdftex.def Info: gfx/Treemap_by_article.png  used on input line 25.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<gfx/avg_time_spent_by_article.png, id=350, 879.88725pt x 156.585pt>
-File: gfx/avg_time_spent_by_article.png Graphic file (type png)
-<use gfx/avg_time_spent_by_article.png>
-Package pdftex.def Info: gfx/avg_time_spent_by_article.png  used on input line 
-34.
-(pdftex.def)             Requested size: 235.19897pt x 41.8556pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<gfx/Personal_dashboard.png, id=352, 602.25pt x 481.8pt>
+<gfx/Personal_dashboard.png, id=357, 602.25pt x 481.8pt>
 File: gfx/Personal_dashboard.png Graphic file (type png)
 <use gfx/Personal_dashboard.png>
 Package pdftex.def Info: gfx/Personal_dashboard.png  used on input line 43.
 (pdftex.def)             Requested size: 336.0pt x 268.80632pt.
-[16
+[17
 
- <./gfx/Heatmap_by_user.png> <./gfx/Reading_time_by_weekday.png (PNG copy)>] [1
-7 <./gfx/Treemap_by_article.png (PNG copy)> <./gfx/avg_time_spent_by_article.pn
-g> <./gfx/Personal_dashboard.png>]
-<gfx/Total_exercise_time.png, id=369, 862.422pt x 213.1965pt>
+ <./gfx/Heatmap_by_user.png> <./gfx/Reading_time_by_weekday.png (PNG copy)>]
+<gfx/Total_exercise_time.png, id=368, 862.422pt x 213.1965pt>
 File: gfx/Total_exercise_time.png Graphic file (type png)
 <use gfx/Total_exercise_time.png>
 Package pdftex.def Info: gfx/Total_exercise_time.png  used on input line 57.
 (pdftex.def)             Requested size: 336.0pt x 83.0617pt.
-<gfx/Class_exercise_by_weekday.png, id=371, 631.158pt x 175.25475pt>
+<gfx/Class_exercise_by_weekday.png, id=370, 631.158pt x 175.25475pt>
 File: gfx/Class_exercise_by_weekday.png Graphic file (type png)
 <use gfx/Class_exercise_by_weekday.png>
 Package pdftex.def Info: gfx/Class_exercise_by_weekday.png  used on input line 
 66.
 (pdftex.def)             Requested size: 336.0pt x 93.29639pt.
-<gfx/Avg_exercise_session_duration.png, id=373, 862.422pt x 200.54926pt>
+[18 <./gfx/Treemap_by_article.png (PNG copy)> <./gfx/Personal_dashboard.png>]
+<gfx/Avg_exercise_session_duration.png, id=380, 862.422pt x 200.54926pt>
 File: gfx/Avg_exercise_session_duration.png Graphic file (type png)
 <use gfx/Avg_exercise_session_duration.png>
 Package pdftex.def Info: gfx/Avg_exercise_session_duration.png  used on input l
 ine 76.
 (pdftex.def)             Requested size: 336.0pt x 78.13432pt.
- [18 <./gfx/Total_exercise_time.png (PNG copy)> <./gfx/Class_exercise_by_weekda
-y.png (PNG copy)> <./gfx/Avg_exercise_session_duration.png (PNG copy)>]
 <gfx/Exercise_timeline.png, id=382, 862.422pt x 248.72925pt>
 File: gfx/Exercise_timeline.png Graphic file (type png)
 <use gfx/Exercise_timeline.png>
 Package pdftex.def Info: gfx/Exercise_timeline.png  used on input line 85.
 (pdftex.def)             Requested size: 336.0pt x 96.90533pt.
-<gfx/Session_durations_by_user.png, id=384, 1971.16425pt x 451.6875pt>
+
+[19 <./gfx/Total_exercise_time.png (PNG copy)> <./gfx/Class_exercise_by_weekday
+.png (PNG copy)> <./gfx/Avg_exercise_session_duration.png (PNG copy)> <./gfx/Ex
+ercise_timeline.png (PNG copy)>]
+<gfx/Session_durations_by_user.png, id=389, 431.211pt x 295.70474pt>
 File: gfx/Session_durations_by_user.png Graphic file (type png)
 <use gfx/Session_durations_by_user.png>
 Package pdftex.def Info: gfx/Session_durations_by_user.png  used on input line 
 94.
-(pdftex.def)             Requested size: 336.0pt x 76.99261pt.
+(pdftex.def)             Requested size: 336.0pt x 230.42316pt.
 ) (Chapters/p04-Conclusion.tex
 Chapter 6.
-[19 <./gfx/Exercise_timeline.png (PNG copy)> <./gfx/Session_durations_by_user.p
-ng (PNG copy)>]) (Chapters/p04-FutureWork.tex
+[20 <./gfx/Session_durations_by_user.png (PNG copy)>])
+(Chapters/p04-FutureWork.tex
 Chapter 7.
-[20
+[21
 
 ])
 Appendix A.
-[21
+[22
 
-] (Chapters/Interview01.tex [22
+] (Chapters/Interview01.tex [23
 
-] [23] [24]) (Chapters/Interview02.tex
-[25] [26]) [27]
+] [24] [25]) (Chapters/Interview02.tex
+[26] [27]) [28]
 \openout2 = `FrontBackmatter/Bibliography.aux'.
 
  (FrontBackmatter/Bibliography.tex
@@ -2465,10 +2462,22 @@ Overfull \hbox (4.48698pt too wide) in paragraph at lines 15--15
 d Wave.
  []
 
-[28
+[29
 
 
 ]
+Overfull \hbox (17.38396pt too wide) in paragraph at lines 15--15
+[]\T1/pplj/m/n/10.95 Mircea F. Lungu.   Boot-strap-ping an Ubiq-ui-tous Mon-i-
+tor-ing Ecosys-
+ []
+
+
+Overfull \hbox (1.57498pt too wide) in paragraph at lines 15--15
+\T1/pplj/m/n/10.95 EC-SAW '16. Copen-hagen, Den-mark: ACM, 2016, 28:128:4. \T1
+/pplj/m/sc/10.95 isbn\T1/pplj/m/n/10.95 :
+ []
+
+
 Overfull \hbox (4.89465pt too wide) in paragraph at lines 15--15
 \T1/pplj/m/n/10.95 an-a-lyt-ics dash-board to sup-port stu-dents' learn-ing per
 -for-mance.
@@ -2514,14 +2523,14 @@ j/m/sc/10.95 url\T1/pplj/m/n/10.95 : [][]$\T1/fvm/m/n/10.95 http : / / journals
  .
  []
 
-[29]) [30]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
+[30]) [31]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
  (ClassicThesis.aux (FrontBackmatter/Titlepage.aux)
 (FrontBackmatter/Titleback.aux) (FrontBackmatter/Abstract.aux)
 (FrontBackmatter/Acknowledgments.aux) (FrontBackmatter/Contents.aux)
 (Chapters/p01-Introduction.aux) (FrontBackmatter/Bibliography.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
 
 
  *File List*
@@ -2715,7 +2724,7 @@ gfx/largest_iddle_time_1min_timeout.png
 gfx/largest_iddle_time_2min_timeout.png
 gfx/largest_iddle_time_3o2min_timeout.png
 gfx/largest_iddle_time_4min_timeout.png
-gfx/largest_iddle_time_5min_timeout_v2.png
+gfx/largest_iddle_time_5min_timeout.png
 gfx/total_read_time_by_user_5min.png
 gfx/total_read_time_by_user_2min.png
 gfx/detailed_session_timeline_by_user_5min.png
@@ -2725,7 +2734,6 @@ Chapters/p04-Discussion.tex
 gfx/Heatmap_by_user.png
 gfx/Reading_time_by_weekday.png
 gfx/Treemap_by_article.png
-gfx/avg_time_spent_by_article.png
 gfx/Personal_dashboard.png
 gfx/Total_exercise_time.png
 gfx/Class_exercise_by_weekday.png
@@ -2739,21 +2747,21 @@ Chapters/Interview02.tex
 FrontBackmatter/Bibliography.tex
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 0C1B36AFF1D6EF2F3F4478499EE72283;1709.
+(rerunfilecheck)             Checksum: BDA0AC5674C0A1E60D53DF242F8D789B;1709.
 Package logreq Info: Writing requests to 'ClassicThesis.run.xml'.
 \openout1 = `ClassicThesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34291 strings out of 493305
- 648879 string characters out of 3137598
- 1118779 words of memory out of 3000000
- 37146 multiletter control sequences out of 15000+200000
+ 34292 strings out of 493305
+ 648841 string characters out of 3137598
+ 1120165 words of memory out of 3000000
+ 37147 multiletter control sequences out of 15000+200000
  596555 words of font info for 108 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 67i,23n,90p,10519b,3111s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,23n,90p,10519b,3117s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/NonImportantPrograms/MikTeX/fonts/enc/dvips/base/8r.enc}<D:/NonImportantP
 rograms/MikTeX/fonts/type1/public/amsfonts/euler/eurb10.pfb><D:/NonImportantPro
 grams/MikTeX/fonts/type1/public/fpl/fplrc8a.pfb><D:/NonImportantPrograms/MikTeX
@@ -2761,9 +2769,9 @@ grams/MikTeX/fonts/type1/public/fpl/fplrc8a.pfb><D:/NonImportantPrograms/MikTeX
 1/bera/fvmr8a.pfb><D:/NonImportantPrograms/MikTeX/fonts/type1/urw/palatino/uplb
 8a.pfb><D:/NonImportantPrograms/MikTeX/fonts/type1/urw/palatino/uplr8a.pfb><D:/
 NonImportantPrograms/MikTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (35 pages, 1083631 bytes).
+Output written on ClassicThesis.pdf (36 pages, 1067296 bytes).
 PDF statistics:
- 540 PDF objects out of 1000 (max. 8388607)
- 122 named destinations out of 1000 (max. 500000)
- 17753 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 547 PDF objects out of 1000 (max. 8388607)
+ 123 named destinations out of 1000 (max. 500000)
+ 17748 words of extra memory for PDF output out of 20736 (max. 10000000)
 

@@ -1,13 +1,13 @@
 %************************************************
 \chapter{Results}\label{p03:results}
 %************************************************
-In this chapter, experiments are performed to find the best implementation/settings of the algorithm. As explained in chapter \ref{p02:session_tracking}, a wrong value of the "session\_timeout" parameter can produce different and perhaps incorrect results.
+In this chapter, experiments are performed to find the best implementation/settings of the algorithm. As explained in section \ref{p02:session_tracking_read_session}, a wrong value of the "session\_timeout" parameter can produce different and perhaps incorrect results.
 First the session timeout for the reading sessions will be determined by trying and analyzing different parameter values. Second, a the session timeout for the exercise sessions will be determined.
 
 \section{Reading session experiments}
 The reading session tracking is the most complex to model, because there are multiple internal and external variables to consider. First, we must define what actions are relevant to detect, in order to consider them as part of the learning process, and which ones are not (\Ie\ the user trying to game the system). Second, with the events already defined, we must determine how much time can pass between them, which is still part of the same reading/learning session.
 
-The set of \textbf{opening, interaction and closing events} were defined as listed in table \ref{tb:event_type_v1}.
+The set of \textbf{opening, interaction and closing events} were defined as listed in Table \ref{tb:event_type_v1}.
 
 \begin{table}[htb]
 	\begin{tabularx}
@@ -60,9 +60,9 @@ By observing the total reading time by user, we can see that the highest value i
 
 
 \subsection{Improving the baseline}
-Using the previous settings as a baseline, the next idea was to reduce the value of session\_timeout, because the additional time benefit of 5 minutes might be too much grace time for a user reading without doing any action. Scrolling events are helpful to detect more frequent activity, but they can be overwhelming for the web server and the database, for that reason, the web server callback was limited to maximum 1 call per minute.
+Using the previous settings as a baseline, the next idea was to reduce the value of session\_timeout, because the additional time benefit of 5 minutes might be too much grace time for a user reading without doing any action. Scrolling events are helpful to detect more frequent activity, but they can be overwhelming for the web server and the database, for that reason, the web server callback was limited to maximum 1 call per minute. This implies that the minimum timeout value should be at least 1 minute.
 
-Sessions were computed using different parameters for the session\_timeout, and the maximum idle time between user actions inside a session was plotted (figure \ref{fig:idle_time_comparison}).
+Sessions were computed using different parameters for the session\_timeout, and the maximum idle time between user actions inside a session was plotted (Figure \ref{fig:idle_time_comparison}).
 
 \begin{figure}[bth]
 	\myfloatalign
@@ -75,12 +75,12 @@ Sessions were computed using different parameters for the session\_timeout, and 
 	\subfloat[4 min]
 	{\includegraphics[width=0.19\linewidth]{gfx/largest_iddle_time_4min_timeout}\label{fig:largest_iddle_time_4min_timeout}} 
 	\subfloat[5 min]
-	{\includegraphics[width=0.19\linewidth]{gfx/largest_iddle_time_5min_timeout_v2}\label{fig:largest_iddle_time_5min_timeout_v2}} \quad
+	{\includegraphics[width=0.19\linewidth]{gfx/largest_iddle_time_5min_timeout}\label{fig:largest_iddle_time_5min_timeout_v2}} \quad
 	
 	\caption{Box plot of maximum idle time per session, for distinct session timeout values}\label{fig:idle_time_comparison}
 \end{figure}
 
-We can observe that the median value fluctuates between 90 and 120 seconds (as shown in table \ref{tb:table_median_value}). By taking this value into account and some empirical measures, the value of the timeout was set to 2 minutes. 
+We can observe that the median value fluctuates between 90 and 120 seconds (as shown in Table \ref{tb:table_median_value}). By taking this value into account and some empirical measures, the value of the timeout was set to 2 minutes. 
 
 The upper hinge, however, increases as the timeout value do. This is because small sessions are stitched together, therefore moving the value upwards.
 
@@ -117,7 +117,7 @@ By comparing the total time per user between the baseline and the final settings
 	\caption{Total time improvement comparison}\label{fig:total_time_comparison}
 \end{figure}
 
-Finally, for the detailed activity, a big change is observed, in figure \ref{fig:detailed_session_5min}, we observe roughly two smooth reading sessions, which later, with a finer session detection gets split into smaller reading sessions (figure \ref{fig:detailed_session_2min}). This means that we correctly detected the user's gap of attentions, therefore a more precise session time was measured.
+Finally, for the detailed activity, a big change is observed, in Figure \ref{fig:detailed_session_5min}, we observe roughly two smooth reading sessions, which later, with a finer session detection gets split into smaller reading sessions (Figure \ref{fig:detailed_session_2min}). This suggests that we correctly detected the user's gap of attentions, therefore a more precise session time was measured.
 
 \begin{figure}[!htb]
 	\myfloatalign
@@ -133,7 +133,7 @@ Finally, for the detailed activity, a big change is observed, in figure \ref{fig
 
 \subsection{Validation}
 Before the implementation of the session tracking, students manually reported the time spent reading in Zeeguu. Therefore a useful validation of the computed session tracking is against the reported time by students.
-In table \ref{tb:comparison_read_time} we can observe the difference between those times. There is a clear difference in the obtained results.
+In Table \ref{tb:comparison_read_time} we can observe the difference between those times. There is a clear difference in the obtained results. Suggesting that the algorithm correctly detected the amount of time students were really focused.
 
 \begin{table}[!htb]
 	\begin{tabularx}
@@ -170,7 +170,7 @@ For the exercise sessions, the implementation is quite simple. Only two events a
 
 The only parameter to define is the exercise session\_timeout. For the exercises, we know that they are short and quick activities, which take only a couple of second to provide an answer. Therefore the timeout must be much smaller than for reading.
 
-In this case, the time between the exercise opening and the answering is computed by a timer. Therefore by a descriptive analysis of the answering time (box plot in figure \ref{fig:exercise_solving_speed}). The obtained results are 6, 10 and 21 seconds, which represent the median, upper hinge and upper whisker. These metrics represent the 50\%, 75\% and 100\% of a normally distributed population. 
+In this case, the time between the exercise opening and the answering is computed by a timer. Therefore by utilizing a descriptive analysis of the answering time (box plot in Figure \ref{fig:exercise_solving_speed}). The obtained results are 6, 10 and 21 seconds, which represent the median, upper hinge and upper whisker. These metrics correspond the 50\%, 75\% and 100\%, of the sessions at hand. 
 
 \begin{figure}[bth]
 	\centering

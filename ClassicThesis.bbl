@@ -551,6 +551,45 @@
     \field{year}{2010}
   \endentry
 
+  \entry{Lungu16}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=LMF}{%
+         family={Lungu},
+         familyi={L\bibinitperiod},
+         given={Mircea\bibnamedelima F.},
+         giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \keyw{HCI, applied linguistics, software ecosystems}
+    \strng{namehash}{LMF1}
+    \strng{fullhash}{LMF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{booktitle}{Proccedings of the 10th European Conference on Software
+  Architecture Workshops}
+    \verb{doi}
+    \verb 10.1145/2993412.3003389
+    \endverb
+    \field{isbn}{978-1-4503-4781-5}
+    \field{pages}{28:1\bibrangedash 28:4}
+    \field{series}{ECSAW '16}
+    \field{title}{Bootstrapping an Ubiquitous Monitoring Ecosystem for
+  Accelerating Vocabulary Acquisition}
+    \verb{url}
+    \verb http://doi.acm.org/10.1145/2993412.3003389
+    \endverb
+    \list{location}{1}{%
+      {Copenhagen, Denmark}%
+    }
+    \field{year}{2016}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
   \entry{Mircea2018}{misc}{}
     \name{author}{4}{}{%
       {{hash=LMF}{%
