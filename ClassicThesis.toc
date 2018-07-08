@@ -26,9 +26,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.1}{Algorithm}}{8}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}{Reading session}}{9}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.2}{Architecture}}{9}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}{Exercise session}}{10}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.3}{Reading session}}{10}{subsection.3.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.4}{Exercise session}}{11}{subsection.3.2.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}{Results}}{12}{chapter.4}
 \defcounter {refsection}{0}\relax 
@@ -56,4 +58,4 @@
 \defcounter {refsection}{0}\relax 
 \vspace {\beforebibskip }
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {}{Bibliography}}{29}{section*.19}
+\contentsline {chapter}{\numberline {}{Bibliography}}{29}{section*.18}

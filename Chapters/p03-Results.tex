@@ -7,42 +7,34 @@ First the session timeout for the reading sessions will be determined by trying 
 \section{Reading session experiments}
 The reading session tracking is the most complex to model, because there are multiple internal and external variables to consider. First, we must define what actions are relevant to detect, in order to consider them as part of the learning process, and which ones are not (\Ie\ the user trying to game the system). Second, with the events already defined, we must determine how much time can pass between them, which is still part of the same reading/learning session.
 
-The set of \textbf{opening, interaction and closing events} were defined as listed in Table \ref{tb:event_type_v1}.
+User actions were classified as follows:
+\begin{itemize}
+	\item Opening
+		\begin{itemize}
+			\item Article focused
+			\item Open article
+			\item Open starred article
+		\end{itemize}
+	
+	\item Interaction
+		\begin{itemize}
+			\item Change orientation
+			\item Open alter menu
+			\item Close alter menu
+			\item Send suggestion
+			\item Speak text
+			\item Translate text
+			\item Undo text translation
+			\item Scroll
+		\end{itemize}
+	
+	\item Closing
+		\begin{itemize}
+			\item Article closed
+			\item Articles requested from Zeeguu
+		\end{itemize}
+\end{itemize}
 
-\begin{table}[htb]
-	\begin{tabularx}
-		{\textwidth}{Xll}\toprule
-		\tableheadline{Event} & \tableheadline{Action type} \\ 
-		\midrule 
-		ARTICLE CLOSED & Closing \\ 
-		\hline 
-		CHANGE ORIENTATION & Interaction \\ 
-		\hline 
-		CLOSE ALTERMENU & Interaction \\ 
-		\hline 
-		OPEN ALTERMENU & Interaction \\ 
-		\hline 
-		SEND SUGGESTION & Interaction \\ 
-		\hline 
-		SPEAK TEXT & Interaction \\ 
-		\hline 
-		TRANSLATE TEXT & Interaction \\ 
-		\hline 
-		UNDO TEXT TRANSLATION & Interaction \\ 
-		\hline 
-		ARTICLE FOCUSED & Opening \\ 
-		\hline 
-		OPEN ARTICLE & Opening \\ 
-		\hline 
-		OPEN STARRED ARTICLE & Opening \\ 
-		\hline 
-		ARTICLES REQUESTED FROM ZEEGUU & Closing \\ 
-		\hline 
-		SCROLL & Interaction \\ 
-		\hline 
-	\end{tabularx} 
-	\caption{User events classification}\label{tb:event_type_v1}
-\end{table}
 
 \subsection{Baseline}
 For the baseline an arbitary value of 5 minutes for the \textbf{session\_timeout} was used.
@@ -105,7 +97,7 @@ The upper hinge, however, increases as the timeout value do. This is because sma
 	\caption{Maximum idle time statistics with different session timeout values}\label{tb:table_median_value}
 \end{table}
 
-By comparing the total time per user between the baseline and the final settings (figure \ref{fig:total_time_comparison}), we can observe that a reduction of almost 300\% in the total time per user was achieved. This means that the previous session\_timeout value was too big, therefore computing times longer than what they really were.
+By comparing the total time per user between the baseline and the final settings (figure \ref{fig:total_time_comparison}), we can observe that a reduction of almost 300\% in the total time per user was achieved. This means that the session\_timeout value has a huge impact, specially when comparing over long periods of time.
 
 \begin{figure}[!htb]
 	\myfloatalign
@@ -162,13 +154,24 @@ In Table \ref{tb:comparison_read_time} we can observe the difference between tho
 \end{table}
 
 \section{Exercise session experiments}
-For the exercise sessions, the implementation is quite simple. Only two events are tracked:
+For the exercise sessions, the implementation is quite simple. Exercise user events were classified as follows:
+
 \begin{itemize}
-	\item Answering the exercise (either right or wrong)
-	\item Asking for a hint
+	\item Opening
+		\begin{itemize}
+			\item Opening exercise
+		\end{itemize}
+		
+	\item Interaction
+		\begin{itemize}
+			\item Answer exercise
+			\item Asking for a hint
+		\end{itemize}
 \end{itemize}
 
-The only parameter to define is the exercise session\_timeout. For the exercises, we know that they are short and quick activities, which take only a couple of second to provide an answer. Therefore the timeout must be much smaller than for reading.
+Given that answering marks the end of an exercise, no additional "closing" actions were used. Therefore the exercise session is finalized whenever the timeout expires. However, in contrast with the reading session, for exercise sessions no grace time is given, meaning that the time of the end of the session is marked by the last completed exercise, and not when the timeout expires.
+
+For the exercises, we know that they are short and quick activities, which take only a couple of second to provide an answer. Therefore the timeout must be much smaller than for reading.
 
 In this case, the time between the exercise opening and the answering is computed by a timer. Therefore by utilizing a descriptive analysis of the answering time (box plot in Figure \ref{fig:exercise_solving_speed}). The obtained results are 6, 10 and 21 seconds, which represent the median, upper hinge and upper whisker. These metrics correspond the 50\%, 75\% and 100\%, of the sessions at hand. 
 

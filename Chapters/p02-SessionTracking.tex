@@ -7,12 +7,7 @@ In order to understand the learning process, we need to keep track of the workin
 \subsection{Algorithm}
 Working sessions are computed under the assumption that all user actions fall into one out of three types: opening, interaction or closing events.
 
-By following the Markov model on Figure \ref{fig:markov_diagram}, we observe that depending on the type of event, a working session can be either created, updated (kept alive) or finalized. With this simple approach, the algorithm can be fine tuned by adding or removing events (\eg, including the scrolling as a interaction event).
-
-\begin{figure}[bth]
-	{\includegraphics[width=1\linewidth]{gfx/Finite_state_machine_diagramv2}} \quad
-	\caption[Finite state diagram - Working session transitions due to user actions]{Finite state diagram - Working session transitions due to user actions}\label{fig:markov_diagram}
-\end{figure}
+Depending on the type of event, a working session can be either created, updated (kept alive) or finalized. With this simple approach, the algorithm can be fine tuned by adding or removing events (\eg, including the scrolling as a interaction event).
 
 Additionally, there is a \textbf{session\_timeout} parameter which is used to handle scenarios where a session was not properly closed. In these cases, the session is closed and a bonus of \textbf{session\_timeout} minutes are added to the last action date and time, under the assumption that the user did not stop working immediately after the last action.
 
@@ -26,12 +21,40 @@ Typical scenarios are:
 	\item When the user is taking unusually too long between actions the activity is considered as suspicious.
 \end{itemize}
 
+
+\begin{figure}[bth]
+	{\includegraphics[width=1\linewidth]{gfx/Finite_state_machine_diagramv2}} \quad
+	\caption[Finite state diagram - Working session transitions due to user actions]{Finite state diagram - Working session transitions due to user actions}\label{fig:markov_diagram}
+\end{figure}
+
+Figure \ref{fig:markov_diagram} depicts the life span of a working session.
+The circles represent the three states in which a session can be:
+\begin{itemize}
+	\item Non existing session: this is the initial status, this means there is no active session for the user within the current context (\Ie\ no active reading session for the current article and user, or not active exercise session for the user). 
+	\item Existing session: if there is already an existing/active session in the same context, the session falls in the second status.
+	\item Session finalized: the moment that the session is closed due to a timeout or the user performing a closing action. After this status, no further actions can modify the session.
+\end{itemize}
+
+The arrows represent the type of user actions that trigger the change of status of the session:
+\begin{itemize}
+	\item Opening: actions that mark the beginning of a working session, such as beginning to read or to exercise.
+	\item Opening timed out: opening actions that happen after the timeout has expired, this can lead to a different status.
+	\item Opening not timed out: opening actions that happen before the timeout is expired.
+	\item Interaction: most of user actions fall within this category, they are the actions that imply the student is actively working.
+	\item Interaction timed out: interaction actions that happen after the timeout is expired
+	\item Interaction not timed out: interaction actions that occur before the timeout is reached
+	\item Closing: when the user manually finalizes the current activity.
+\end{itemize}
+
+
+\subsection{Architecture}
 For the specific case of Zeeguu platform, the implementation of the algorithm is divided in two layers: front and back ends. The front end is implemented in Javascript and it tracks the user actions with the system. The back end is implemented in Python and is where the logic for the working sessions is implemented.
 
 Figure \ref{fig:session_tracking_architecture} shows the architecture of the solution. The implementation is divided in two layers, which can work independently. 
 
-Relevant user actions are detected by the front end layer of the system, and stored in the database. The back end periodically retrieves the list of user events and stitches them or creates a new session depending on the type of event and the time between the actions. Therefore inserting the session information back in the database, making it available to be displayed.
+Relevant user actions are detected by the front end layer of the system, and stored in the database. The back end periodically retrieves the list of user events and stitches them to extend the session or creates a new session depending on the type of event and the time between the actions. Therefore inserting the session information back in the database, making it available to be displayed.
 The front end layer can also trigger the execution of the session stitching module after each user activity, enabling real time session analysis.
+Event stitching is the process of creating or expanding a session between two consecutive user actions.
 
 %TODO include layers diagram
 \begin{figure}[bth]
