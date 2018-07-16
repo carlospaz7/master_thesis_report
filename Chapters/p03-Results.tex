@@ -124,37 +124,53 @@ Finally, for the detailed activity, a big change is observed, in Figure \ref{fig
 
 
 \subsection{Validation}
-Before the implementation of the session tracking, students manually reported the time spent reading in Zeeguu. Therefore a useful validation of the computed session tracking is against the reported time by students.
-In Table \ref{tb:comparison_read_time} we can observe the difference between those times. There is a clear difference in the obtained results. Suggesting that the algorithm correctly detected the amount of time students were really focused.
+Before the implementation of the session tracking, students manually reported the time spent reading in Zeeguu. Therefore a useful validation of the computed session tracking is against the time reported by students.
+
+Table \ref{tb:comparison_read_time} shows the comparison between the reported time and the computed total time using session tracking for a period of six months.
+
+There is a clear difference between both times. The reported time is 4 times bigger than the computed time.
+
+The validation against the time reported by students did not match as expected, the most probable reason is that students rounded up to the next half hour while generating the reports because that is their unit of measure. 
 
 \begin{table}[!htb]
+	\tiny
+	\resizebox{\textwidth}{!}{
 	\begin{tabularx}
-		{\textwidth}{Xllll}\toprule
+		{\textwidth}{XXXXX}\toprule
 		\tableheadline{Student} & 
-		\tableheadline{Reported time} &
-		\tableheadline{Computed time} \\ 
+		\tableheadline{Read time} &
+		\tableheadline{Exercise time} &
+		\tableheadline{Total detected time} &
+		\tableheadline{Reported time} \\ 
 		\midrule 
 		Student 1
-		 & 11 hours
-		  & 59 minutes
+		  & 59 min
+		  & 1 hour 24 min
+		  & 2 hours 23 min
+		  & 10 hours
 		   \\ 
 		\hline 
 		Student 2
-		 & 1.5 hours
-		  & 44 minutes
+		  & 44 min
+		  & 0 min
+		  & 44 min
+		  & 2 hour 30 min
 		   \\ 
 		\hline
 		Student 3
-		 & 4 hours
-		  & 54 minutes
+		  & 54 min
+		  & 2.8 min
+		  & 56.8 min
+		  & 4 hours
 		  \\ 
 		\hline 
 	\end{tabularx} 
-	\caption{Comparison of reading time reported by students vs the time computed by the algorithm (using a timeout value of 2 minutes)}\label{tb:comparison_read_time}
+}
+	\caption{Comparison of working time reported by students vs the time computed by the algorithm (using a timeout value of 2 minutes for reading sessions and 21 seconds for exercise sessions)}\label{tb:comparison_read_time}
 \end{table}
 
 \section{Exercise session experiments}
-For the exercise sessions, the implementation is quite simple. Exercise user events were classified as follows:
+For the exercise sessions, the implementation is simple. Exercise user events were classified as follows:
 
 \begin{itemize}
 	\item Opening
@@ -178,7 +194,7 @@ In this case, the time between the exercise opening and the answering is compute
 \begin{figure}[bth]
 	\centering
 	\includegraphics[width=0.2\linewidth]{gfx/exercise_solving_speed}
-	\caption{Exercise time box plot}\label{fig:exercise_solving_speed}
+	\caption{Exercise solving speed boxplot}\label{fig:exercise_solving_speed}
 \end{figure}
 
 Given that the tracked time window is so small, a final setup of no grace time but using the upper whisker value (21 seconds) is chosen.
