@@ -1,5 +1,5 @@
 %************************************************
-\chapter{Discussion}
+\chapter{Discussion}\label{p04:discussion}
 %************************************************
 After the implementation of session tracking, useful information about time and quality of work can be presented to teachers and students. Example of questions and analysis that can now be performed with the session tracking are presented in this chapter.
 With this knowledge they can adjust their teaching strategy and have a better understanding of how the class is using the system.
@@ -48,9 +48,9 @@ And at the individual level, the user can visualize and understand his own work,
 
 
 \section{Exercise session}
-Typical questions related to the exercises are how much time has the student being practicing? Do they practice daily? For how long? Etc. In this chapter a list of analysis based on time spent on exercises is shown and discussed.
+Typical questions related to the exercises are how much time has the student been practicing? Do they practice daily? For how long? Etc. In this chapter a list of analysis based on time spent on exercises is shown and discussed.
 
-The first question is how much time the class is spending on practicing their vocabulary? With a simple bar chart we can visualize and compare how much time in total has the class spent practicing, and also who has been putting more effort on it. As we can observe in Figure \ref{fig:Total_exercise_time}, some students really like to rehearse their new vocabulary, while the rest have lost their interest over time.
+The first question is how much time the class is spending on practicing their vocabulary? With a simple bar chart we can visualize and compare how much time in total has the class spent practicing, and also who has been putting more effort on it. As we can observe in Figure \ref{fig:Total_exercise_time}, some students have been constant in the amount of time spent practicing between 2017 and 2018, while others have decreased or even stopped it completely.
 
 \begin{figure}[bth]
 	\centering
@@ -69,12 +69,11 @@ If the interest is on when do the students practice, a visualization by weekday 
 \end{figure}
 
 For understanding the quality of the practice, we can also visualize the average session length. An interesting finding, as we can see in Figure \ref{fig:Avg_exercise_session_duration}, is that on average the exercise sessions are 2.2 minutes long. Some of the students however practice for less than a minute, this can tell us about their commitment with the activity or about their knowledge, since exercises have fixed number of questions, and thus, a fast student will finish faster. By observing these results a teacher can encourage the class to practice for at least a certain amount of minutes in a row, in order to keep a better focus. Finally, this visualization can also be used to avoid students gaming the system by opening the application multiple times but not really focusing on the assignment.
-The finding about the average session time is also a good indicator about how the exercise session\_timeout should be configured.
 
 \begin{figure}[bth]
 	\centering
 	\includegraphics[width=1\linewidth]{gfx/Avg_exercise_session_duration}
-	\caption{Class average session duration}
+	\caption{Bar chart showing average session duration by student}
 	\label{fig:Avg_exercise_session_duration}
 \end{figure}
 

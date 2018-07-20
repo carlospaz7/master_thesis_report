@@ -1,10 +1,10 @@
 %************************************************
-\chapter{Future Work}
+\chapter{Future Work}\label{p06:futurework}
 %************************************************ 
 
-One of the main challenges for defining the session\_timeout is having statistically representative data. In this case, Zeeguu system has been recently deployed and has suffered constant modifications (being one of the latests scroll and page focus detection), this skews the analysis to only the last collected information. For this reason it is possible that in the future, with more data at hand, the session\_timeout can be better adjusted.
+One of the main challenges for defining the \textbf{session\_timeout} is having statistically representative data. In this particular implementation, the Zeeguu system has been recently deployed and has suffered constant modifications (\eg\ scrolling event detection was included during the implementation of this project), this skews the analysis to only the last collected information. For this reason it is possible that in the future, with more data at hand, the session\_timeout can be better adjusted.
 
-A possible improvement to the implementation is having different session\_timeout values, either by class or by student. Helping better tailor the parameters and obtaining even better results. In the ideal system, if we knew that an article us too difficult for a user, we would expect a lot of translations, therefore the timeout could be set to a smaller value. On the contrary, for advanced users, the timeout could be larger given that they do not need to translate any word.
+A possible improvement to the implementation is having different session\_timeout values, either by class or by student. Helping better tailor the parameters and obtaining even better results. In the ideal system, if we knew that an article is too difficult for a user, we would expect a lot of translations, therefore the timeout could be set to a smaller value. On the contrary, for advanced users, the timeout could be larger given that they might not need to translate any word.
 
 Once enough data is collected, reading speed calculation can be done, which could be used for filtering suggested articles based on available time, or even to make the session timeout smarter.
 

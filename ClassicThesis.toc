@@ -28,7 +28,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.2}{Architecture}}{9}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}{Reading session}}{10}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.3}{Reading session}}{11}{subsection.3.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.4}{Exercise session}}{12}{subsection.3.2.4}
 \defcounter {refsection}{0}\relax 
@@ -40,7 +40,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.2}{Improving the baseline}}{14}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}{Validation}}{15}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.3}{Validation}}{16}{subsection.4.1.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}{Exercise session experiments}}{17}{section.4.2}
 \defcounter {refsection}{0}\relax 
@@ -58,4 +58,4 @@
 \defcounter {refsection}{0}\relax 
 \vspace {\beforebibskip }
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {}{Bibliography}}{32}{section*.18}
+\contentsline {chapter}{\numberline {}{Bibliography}}{32}{section*.19}

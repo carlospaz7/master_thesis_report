@@ -23,14 +23,14 @@ Typical scenarios are:
 
 
 \begin{figure}[bth]
-	{\includegraphics[width=1\linewidth]{gfx/Finite_state_machine_diagramv2}} \quad
+	{\includegraphics[width=1\linewidth]{gfx/Finite_state_machine_diagramv3}} \quad
 	\caption[Finite state diagram - Working session transitions due to user actions]{Finite state diagram - Working session transitions due to user actions}\label{fig:markov_diagram}
 \end{figure}
 
 Figure \ref{fig:markov_diagram} depicts the life span of a working session.
-The circles represent the three states in which a session can be:
+The circles represent the states in which a session can be:
 \begin{itemize}
-	\item Non existing session: this is the initial status, this means there is no active session for the user within the current context (\Ie\ no active reading session for the current article and user, or not active exercise session for the user). 
+	\item Black circle: this is the initial status, this means there is no active session for the user within the current context (\Ie\ no active reading session for the current article and user, or not active exercise session for the user). 
 	\item Existing session: if there is already an existing/active session in the same context, the session falls in the second status.
 	\item Session finalized: the moment that the session is closed due to a timeout or the user performing a closing action. After this status, no further actions can modify the session.
 \end{itemize}
@@ -48,11 +48,32 @@ The arrows represent the type of user actions that trigger the change of status 
 
 
 \subsection{Architecture}
-For the specific case of Zeeguu platform, the implementation of the algorithm is divided in two layers: front and back ends. The front end is implemented in Javascript and it tracks the user actions with the system. The back end is implemented in Python and is where the logic for the working sessions is implemented.
+For the specific case of Zeeguu platform, the implementation of the algorithm is divided in two layers: front and back ends. The front end is implemented in Javascript and it tracks the user actions with the system. The back end is implemented in Python and is where the logic for the working sessions is implemented. The description and link to the actual implementation of the session tracking for the Zeeguu system, is located in Table \ref{tb:github_files}.
+
+\begin{table}[htb]
+	\scriptsize
+	\begin{tabularx}
+		{\textwidth}{XXX}\toprule
+		\tableheadline{File name} & 
+		\tableheadline{Entry point} &
+		\tableheadline{Description} 
+		 \\ 
+		\midrule 
+		\href{https://github.com/zeeguu-ecosystem/Zeeguu-Core/blob/master/zeeguu/model/user_reading_session.pyy}{user\_reading\_session.py} & 
+		update\_reading\_session() &
+		Python class implementation of the reading session tracking. Contains the logic regarding when to create, update or close a reading session. \\ 
+		\hline 
+		\href{https://github.com/zeeguu-ecosystem/Zeeguu-Core/blob/master/zeeguu/model/user_exercise_session.py}{user\_exercise\_session.py} &
+		update\_exercise\_session() &
+		Python class implementation to handle exercise session tracking. Contains the logic regarding when to create, update or close an exercise session.\\ 
+		\hline
+	\end{tabularx} 
+	\caption{Python code with the implementation of the session tracking for the Zeeguu platform.}\label{tb:github_files}
+\end{table}
 
 Figure \ref{fig:session_tracking_architecture} shows the architecture of the solution. The implementation is divided in two layers, which can work independently. 
 
-Relevant user actions are detected by the front end layer of the system, and stored in the database. The back end periodically retrieves the list of user events and stitches them to extend the session or creates a new session depending on the type of event and the time between the actions. Therefore inserting the session information back in the database, making it available to be displayed.
+Relevant user actions are detected by the front end layer of the system, and stored in the database. The back end periodically retrieves the list of user events and stitches them (see link to GitHub code in Table \ref{tb:github_files}) to extend the session or creates a new session depending on the type of event and the time between the actions. Therefore inserting the session information back in the database, making it available to be displayed.
 The front end layer can also trigger the execution of the session stitching module after each user activity, enabling real time session analysis.
 Event stitching is the process of creating or expanding a session between two consecutive user actions.
 
@@ -74,7 +95,7 @@ For the reading session, Javascript listeners are used to track the following us
 	\item Close an article
 \end{itemize}
 
-When these events are detected, the related information is immediately stored in the database. Each time the back end runs, it stitches the events to the corresponding session, until the article is closed or a new article is opened. In which case, the back end finalizes the session, making it available to be visualized.
+When these events are detected, the related information is sent to the server and stored in the database. Each time the back end runs, it stitches the events to the corresponding session, until the article is closed or a new article is opened. In which case, the back end finalizes the session, making it available to be visualized.
 
 While defining what a session is in the system, and given the fact that the application is on the web, the following difficulties are encountered:
 \begin{itemize}

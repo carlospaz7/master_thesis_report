@@ -1,7 +1,7 @@
 %************************************************
 \chapter{Results}\label{p03:results}
 %************************************************
-In this chapter, experiments are performed to find the best implementation/settings of the algorithm. As explained in section \ref{p02:session_tracking_read_session}, a wrong value of the "session\_timeout" parameter can produce different and perhaps incorrect results.
+In this chapter, experiments are performed to find the best implementation/settings of the algorithm. As explained in section \ref{p02:session_tracking_read_session}, a wrong value of the \textbf{timeout} parameter can produce different and perhaps incorrect results.
 First the session timeout for the reading sessions will be determined by trying and analyzing different parameter values. Second, a the session timeout for the exercise sessions will be determined.
 
 \section{Reading session experiments}
@@ -52,7 +52,7 @@ By observing the total reading time by user, we can see that the highest value i
 
 
 \subsection{Improving the baseline}
-Using the previous settings as a baseline, the next idea was to reduce the value of session\_timeout, because the additional time benefit of 5 minutes might be too much grace time for a user reading without doing any action. Scrolling events are helpful to detect more frequent activity, but they can be overwhelming for the web server and the database, for that reason, the web server callback was limited to maximum 1 call per minute. This implies that the minimum timeout value should be at least 1 minute.
+Using the previous settings as a baseline, the next idea was to reduce the value of session\_timeout, because the additional time benefit of 5 minutes might be too much grace time for a user reading without doing any action. Scrolling events are helpful to detect more frequent activity, but they can be overwhelming for the web server and the database, for that reason, the web server callback was limited to maximum 1 call per minute, for the scrolling event. This implies that the minimum timeout value should be at least 1 minute.
 
 Sessions were computed using different parameters for the session\_timeout, and the maximum idle time between user actions inside a session was plotted (Figure \ref{fig:idle_time_comparison}).
 
@@ -72,9 +72,12 @@ Sessions were computed using different parameters for the session\_timeout, and 
 	\caption{Box plot of maximum idle time per session, for distinct session timeout values}\label{fig:idle_time_comparison}
 \end{figure}
 
-We can observe that the median value fluctuates between 90 and 120 seconds (as shown in Table \ref{tb:table_median_value}). By taking this value into account and some empirical measures, the value of the timeout was set to 2 minutes. 
+We can observe that the median value fluctuates between 60 and 120 seconds (as shown in Table \ref{tb:table_median_value}). By taking this value into account and some empirical measures, the value of the timeout was set to 2 minutes. 
 
-The upper hinge, however, increases as the timeout value do. This is because small sessions are stitched together, therefore moving the value upwards.
+By comparing the medians of the tests, we can observe that the maximum idle time for the tested timeout values is located between 55 seconds and 115 seconds. If we would chose a timeout value of lower than 115 seconds, we would be closing sessions while the student would still be working. Therefore a value of at least 115 seconds should be used. 
+Given that the timeout value is a continuous variable and that we are only testing 5 possible settings, we decided to be conservative and round up the timeout value to 2 minutes.
+
+The upper hinge, in contrast with the median, increases as the timeout value do. This is because small sessions that are close enough, are stitched together, therefore moving the maximum value upwards. In other words, some noise is introduced in the analysis.
 
 \begin{table}[htb]
 	\begin{tabularx}
@@ -94,10 +97,10 @@ The upper hinge, however, increases as the timeout value do. This is because sma
 		5 & 88 & 297\\ 
 		\hline 
 	\end{tabularx} 
-	\caption{Maximum idle time statistics with different session timeout values}\label{tb:table_median_value}
+	\caption{Maximum idle time comparison between different session timeout values}\label{tb:table_median_value}
 \end{table}
 
-By comparing the total time per user between the baseline and the final settings (figure \ref{fig:total_time_comparison}), we can observe that a reduction of almost 300\% in the total time per user was achieved. This means that the session\_timeout value has a huge impact, specially when comparing over long periods of time.
+By comparing the total time per user between the baseline and the final settings (Figure \ref{fig:total_time_comparison}), we can observe that a reduction of almost 300\% in the total time per user was achieved. This means that the session\_timeout value has a huge impact, specially when comparing over long periods of time.
 
 \begin{figure}[!htb]
 	\myfloatalign
@@ -126,11 +129,11 @@ Finally, for the detailed activity, a big change is observed, in Figure \ref{fig
 \subsection{Validation}
 Before the implementation of the session tracking, students manually reported the time spent reading in Zeeguu. Therefore a useful validation of the computed session tracking is against the time reported by students.
 
-Table \ref{tb:comparison_read_time} shows the comparison between the reported time and the computed total time using session tracking for a period of six months.
+Table \ref{tb:comparison_read_time} shows the comparison between the reported time and the computed total time using session tracking for three students over a period of six months.
 
 There is a clear difference between both times. The reported time is 4 times bigger than the computed time.
 
-The validation against the time reported by students did not match as expected, the most probable reason is that students rounded up to the next half hour while generating the reports because that is their unit of measure. 
+The validation against the time reported by students did not match as expected, a possible reason is that students rounded up to the next half hour while generating the reports because that is their unit of measure, according to the teacher interview (Interview \ref{interview01}). 
 
 \begin{table}[!htb]
 	\tiny
