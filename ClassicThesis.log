@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.7)  20 JUL 2018 17:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.7)  25 JUL 2018 15:24
 entering extended mode
 **./ClassicThesis.tex
 (ClassicThesis.tex
@@ -2062,31 +2062,40 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 
 
 (FrontBackmatter/Titlepage.tex
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 15.
+<gfx/RUG_logo.png, id=119, 229.45724pt x 62.634pt>
+File: gfx/RUG_logo.png Graphic file (type png)
+<use gfx/RUG_logo.png>
+Package pdftex.def Info: gfx/RUG_logo.png  used on input line 7.
+(pdftex.def)             Requested size: 227.62204pt x 62.13399pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 30.
 
 (D:\NonImportantPrograms\MikTeX\tex\latex\psnfss\ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 15.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 30.
 
 
 (D:\NonImportantPrograms\MikTeX\tex\latex\psnfss\omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 15.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 30.
 
 
 (D:\NonImportantPrograms\MikTeX\tex\latex\psnfss\omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 15.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 30.
 
 
 (D:\NonImportantPrograms\MikTeX\tex\latex\psnfss\omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 15.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 30.
 
 
 (D:\NonImportantPrograms\MikTeX\tex\latex\psnfss\ot1zplm.fd
@@ -2096,11 +2105,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zplm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<gfx/RUG_logo.png, id=119, 229.45724pt x 62.634pt>
-File: gfx/RUG_logo.png Graphic file (type png)
-<use gfx/RUG_logo.png>
-Package pdftex.def Info: gfx/RUG_logo.png  used on input line 25.
-(pdftex.def)             Requested size: 199.16928pt x 54.36688pt.
  [1
 
 
@@ -2717,12 +2721,12 @@ epstopdf-base.sty    2016/05/15 v2.6 Base part for package epstopdf
   grfext.sty    2016/05/16 v1.2 Manage graphics extensions (HO)
   mt-ppl.cfg    2005/11/16 v1.6 microtype config. file: Palatino (RS)
 FrontBackmatter/Titlepage.tex
+gfx/RUG_logo.png
  ot1pplx.fd    2004/09/06 font definitions for OT1/pplx.
  omlzplm.fd    2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
  omszplm.fd    2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
  omxzplm.fd    2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
  ot1zplm.fd    2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-gfx/RUG_logo.png
 FrontBackmatter/Titleback.tex
  ts1pplj.fd    2004/09/06 font definitions for TS1/pplj.
 FrontBackmatter/Abstract.tex
@@ -2776,11 +2780,11 @@ Package logreq Info: Writing requests to 'ClassicThesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34301 strings out of 493305
- 648845 string characters out of 3137598
- 1117431 words of memory out of 3000000
- 37149 multiletter control sequences out of 15000+200000
- 620428 words of font info for 126 fonts, out of 3000000 for 9000
+ 34287 strings out of 493305
+ 648586 string characters out of 3137598
+ 1117427 words of memory out of 3000000
+ 37133 multiletter control sequences out of 15000+200000
+ 619896 words of font info for 120 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  69i,23n,90p,10519b,3087s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/NonImportantPrograms/MikTeX/fonts/enc/dvips/base/8r.enc}<D:/NonImportantP
@@ -2790,9 +2794,9 @@ grams/MikTeX/fonts/type1/public/fpl/fplrc8a.pfb><D:/NonImportantPrograms/MikTeX
 1/bera/fvmr8a.pfb><D:/NonImportantPrograms/MikTeX/fonts/type1/urw/palatino/uplb
 8a.pfb><D:/NonImportantPrograms/MikTeX/fonts/type1/urw/palatino/uplr8a.pfb><D:/
 NonImportantPrograms/MikTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (39 pages, 1059100 bytes).
+Output written on ClassicThesis.pdf (39 pages, 1059174 bytes).
 PDF statistics:
  581 PDF objects out of 1000 (max. 8388607)
  127 named destinations out of 1000 (max. 500000)
- 21340 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 19804 words of extra memory for PDF output out of 20736 (max. 10000000)
 
